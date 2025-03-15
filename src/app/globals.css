@@ -1,10 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #1982C4; 
+  --primary: #1982C4;
+  --orange: #E29E21; 
+  --yellow: #F9F871;
+  --purple: #9262B5;
+  --dark: #3C4856;
 }
 
 @theme inline {
   --font-montserrat: var(--font-montserrat);
-  --color-primary: var(--primary)
+  --color-primary: var(--primary);
+  --color-dark: var(--dark);
+}
+
+@layer components {
+    .heading1 {
+        @apply text-4xl md:text-5xl xl:text-6xl font-bold
+    }
+
+    .header-background {
+        background: radial-gradient(
+            farthest-corner circle at top right in oklab,
+            var(--primary) 0%, var(--yellow) 100%
+        );
+    }
 }
