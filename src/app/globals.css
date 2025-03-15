@@ -16,6 +16,7 @@
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
   --color-dark: var(--dark);
+  --spacing-root-header: 70px;
 }
 
 @layer components {

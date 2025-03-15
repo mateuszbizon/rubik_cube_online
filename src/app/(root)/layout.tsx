@@ -1,3 +1,5 @@
+import RootHeader from "@/components/RootHeader";
+
 export default function RootLayout({
     children,
   }: Readonly<{
@@ -5,6 +7,7 @@ export default function RootLayout({
   }>) {
     return (
         <main>
+            <RootHeader />
             {children}
         </main>
     );

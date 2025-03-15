@@ -4,7 +4,7 @@ import { Button } from '../ui/button'
 
 function HeroSection() {
   return (
-    <section className="h-screen header-background">
+    <section className="h-[calc(100vh-theme(height.root-header))] header-background">
         <Container>
             <div className='h-full grid lg:grid-cols-2'>
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
