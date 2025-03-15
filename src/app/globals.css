@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+@plugin "tailwindcss-animate";
+
 :root {
   --primary: #1982C4;
+  --primary2: #67B7FD;
   --orange: #E29E21; 
   --yellow: #F9F871;
   --purple: #9262B5;
@@ -11,6 +14,7 @@
 @theme inline {
   --font-montserrat: var(--font-montserrat);
   --color-primary: var(--primary);
+  --color-primary2: var(--primary2);
   --color-dark: var(--dark);
 }
 
