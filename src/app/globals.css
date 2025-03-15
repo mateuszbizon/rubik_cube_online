@@ -9,6 +9,7 @@
   --yellow: #F9F871;
   --purple: #9262B5;
   --dark: #3C4856;
+  --light: #D7F3FF;
 }
 
 @theme inline {
@@ -16,12 +17,18 @@
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
   --color-dark: var(--dark);
+  --color-light: var(--light);
   --spacing-root-header: 70px;
+  --spacing-section: 80px;
 }
 
 @layer components {
     .heading1 {
         @apply text-4xl md:text-5xl xl:text-6xl font-bold
+    }
+
+    .heading2 {
+        @apply text-3xl md:text-4xl xl:text-5xl font-bold
     }
 
     .header-background {

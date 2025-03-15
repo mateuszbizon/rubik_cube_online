@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function RootHeader() {
   return (
-    <header className='sticky top-0 h-root-header bg-white'>
+    <header className='sticky top-0 h-root-header bg-white z-10'>
         <Container>
             <nav className='flex justify-between items-center h-full'>
                 <div className='flex gap-10 items-center'>
