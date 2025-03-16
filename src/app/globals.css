@@ -31,6 +31,10 @@
         @apply text-3xl md:text-4xl xl:text-5xl font-bold
     }
 
+    .link {
+        @apply text-primary hover:text-primary2 transition-colors duration-300
+    }
+
     .header-background {
         background: radial-gradient(
             farthest-corner circle at top right in oklab,

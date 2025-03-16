@@ -1,0 +1,57 @@
+import React from 'react'
+import Container from '../Container'
+import Link from 'next/link'
+
+function LessonSection() {
+  return (
+    <section id='lesson' className='py-section text-dark'>
+        <Container>
+            <h2 className='heading2 mb-16'>
+                Jak przebiega lekcja
+            </h2>
+            <div className='flex flex-col md:flex-row gap-8'>
+                <div className='bg-dark rounded-xl p-10 space-y-5 md:order-2 md:w-[300px] text-center md:text-left text-white shrink-0 flex flex-col justify-center'>
+                    <div className='space-y-2'>
+                        <p className='text-lg'>
+                            Czas trwania
+                        </p>
+                        <p className='text-xl font-semibold'>
+                            1h
+                        </p>
+                    </div>
+                    <div className='space-y-2'>
+                        <p className='text-lg font-medium'>
+                            Koszt
+                        </p>
+                        <p className='text-xl font-semibold'>
+                            50 zł
+                        </p>
+                    </div>
+                    <div className='space-y-2'>
+                        <p className='text-lg'>
+                            Główna platforma
+                        </p>
+                        <p className='text-xl font-semibold'>
+                            <Link href={"https://www.superprof.pl/"} target='_blank' title='Superprof'>Superprof</Link>
+                        </p>
+                    </div>
+                </div>
+
+                <div className='grow text-xl space-y-5 text-pretty'>
+                    <p>
+                        Zajęcia odbywają się na platformie <Link href={"https://www.superprof.pl/"} className='link' target='_blank' title='Superprof'>Superprof</Link> lub na innych znanych platformach tj. Messenger, Whatsapp czy Discord, ale także na takiej której nie znam. W przypadku nowej dla platformy postaram się z nią zapoznać aby na pewno lekcja potoczyła się na odpowiednich warunkach.
+                    </p>
+                    <p>
+                        Lekcje odbywają się głównie online jak wspomniałem powyżej lecz istnieje jeszcze szansa spotkania stacjonarnego jeśli jest to w Zgorzelcu, województwo dolnośląskie lub pobliskich miejscowościach.
+                    </p>
+                    <p>
+                        Lekcja trwa godzinę i kosztuje 50 zł. Aby uczniowie nie tracili pieniędzy na początku w przypadku gdy lekcja się nie spodoba to <strong>pierwsza lekcja jest darmowa</strong>
+                    </p>
+                </div>
+            </div>
+        </Container>
+    </section>
+  )
+}
+
+export default LessonSection
