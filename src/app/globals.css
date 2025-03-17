@@ -20,6 +20,8 @@
   --color-dark: var(--dark);
   --color-light: var(--light);
   --color-gray: var(--gray);
+  --color-orange: var(--orange);
+  --color-purple: var(--purple);
   --spacing-root-header: 70px;
   --spacing-section: 80px;
 }
@@ -35,6 +37,10 @@
 
     .link {
         @apply text-primary hover:text-primary2 transition-colors duration-300
+    }
+
+    .nav-link {
+        @apply text-dark hover:text-primary transition-colors duration-300
     }
 
     .header-background {
