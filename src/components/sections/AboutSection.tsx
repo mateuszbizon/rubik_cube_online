@@ -19,7 +19,7 @@ function AboutSection() {
                         </div> */}
                     </div>
                 </div>
-                <div className='pt-5 font-medium text-lg space-y-5 text-center lg:text-left text-pretty'>
+                <div className='pt-5 text-xl space-y-5 text-center lg:text-left text-pretty'>
                     <p>
                         Nazywam się Mateusz Bizoń. Od roku 2019 zajmuje się układaniem kostki Rubika, a od roku 2020 zacząłem układać kostkę na czas. Osiągam wyniki średnio poniżej 18 sekund. Byłem na kilku zawodach online gdzie zajmowałem mniej więcej miejsca od 60 do 80 w Polsce.
                     </p>

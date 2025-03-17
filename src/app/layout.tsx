@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${montserrat.variable}`}
+        className={`${montserrat.className}`}
       >
         {children}
       </body>
