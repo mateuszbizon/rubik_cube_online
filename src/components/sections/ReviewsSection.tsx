@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Container from '../Container'
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../ui/carousel'
+import { Carousel, CarouselContent, CarouselNext, CarouselPrevious } from '../ui/carousel'
 import Autoplay from "embla-carousel-autoplay"
 import { REVIEWS_LIST } from '@/constants/reviewsList'
 import ReviewCard from '../cards/ReviewCard'
@@ -29,7 +29,7 @@ function ReviewsSection() {
             >
                 <CarouselContent>
                     {REVIEWS_LIST.map(item => (
-                        <ReviewCard key={item.name} review={item} />
+                        <ReviewCard key={item.content} review={item} />
                     ))}
                 </CarouselContent>
                 <CarouselPrevious variant={"icon"} className='hidden lg:inline-flex' />
