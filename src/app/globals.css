@@ -10,6 +10,7 @@
   --purple: #9262B5;
   --dark: #3C4856;
   --light: #D7F3FF;
+  --gray: #A0ACBD;
 }
 
 @theme inline {
@@ -18,6 +19,7 @@
   --color-primary2: var(--primary2);
   --color-dark: var(--dark);
   --color-light: var(--light);
+  --color-gray: var(--gray);
   --spacing-root-header: 70px;
   --spacing-section: 80px;
 }
