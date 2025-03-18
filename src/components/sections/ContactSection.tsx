@@ -13,7 +13,7 @@ function ContactSection() {
             </h2>
             <div className='bg-orange rounded-4xl text-center p-10 space-y-10 mb-16'>
                 <p className='text-2xl font-semibold text-white'>
-                    Rozpocznij naukę poprzez moje ogłoszenie na Superprof, klikając w przycisk poniżej
+                    Rozpocznij naukę poprzez moje ogłoszenie na Superprof, klikając w przycisk poniżej.
                 </p>
                 <div className='flex justify-center'>
                     <Button size={"lg"} asChild>
@@ -32,7 +32,7 @@ function ContactSection() {
             </div>
             <div className='bg-purple rounded-4xl text-center p-10 space-y-10 mb-16'>
                 <p className='text-2xl font-semibold text-white'>
-                    Skontaktj się ze mną w inny, bardziej tradycyjny sposób
+                    Skontaktuj się ze mną w inny, bardziej tradycyjny sposób.
                 </p>
                 <div className='flex justify-center flex-wrap gap-10 text-white'>
                     <div className='flex flex-col items-center gap-5'>
