@@ -14,7 +14,7 @@ function HeroSection() {
                     <p className='text-2xl font-medium'>
                         Naucz się układać legendarną łamigłówkę logiczną jaką jest kostka Rubika w przyjazny i zrozumiały sposób.
                     </p>
-                    <div className='flex gap-5 justify-center lg:justify-start'>
+                    <div className='flex gap-5 justify-center lg:justify-start flex-wrap'>
                         <Button size={"lg"}>
                             Rozpocznij
                         </Button>

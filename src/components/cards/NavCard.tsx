@@ -9,11 +9,9 @@ type NavCardProps = {
 
 function NavCard({ navItem, activeLink }: NavCardProps) {
   return (
-    <li className='text-lg'>
-        <Link href={navItem.href} className={`nav-link lg:px-5 ${activeLink === navItem.section ? "text-primary" : ""}`}>
-            {navItem.name}
-        </Link>
-    </li>
+    <Link href={navItem.href} className={`nav-link text-lg font-medium lg:px-5 ${activeLink === navItem.section ? "text-primary" : ""}`}>
+        {navItem.name}
+    </Link>
   )
 }
 
