@@ -52,8 +52,22 @@ function RootHeader() {
                                     </li>
                                 ))}
                             </ul>
+                            <div className='flex justify-center mt-1'>
+                                <SheetClose asChild>
+                                    <Button className='text-lg' asChild>
+                                        <Link href={"#start-lesson"}>
+                                            Zaczynam naukę
+                                        </Link>
+                                    </Button>
+                                </SheetClose>
+                            </div>
                         </SheetContent>
                     </Sheet>
+                    <Button size={"lg"} className='hidden lg:inline-flex text-lg' asChild>
+                        <Link href={"#start-lesson"}>
+                            Zaczynam naukę
+                        </Link>
+                    </Button>
                 </div>
             </nav>
         </Container>

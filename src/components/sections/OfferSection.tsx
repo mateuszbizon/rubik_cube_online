@@ -56,8 +56,8 @@ function OfferSection() {
             </div>
             <div className='flex justify-center mt-10'>
                 <Button variant={"secondary"} size={"lg"} asChild>
-                    <Link href={"#contact"}>
-                        Zaczynam naukę!
+                    <Link href={"#start-lesson"}>
+                        Zaczynam naukę
                     </Link>
                 </Button>
             </div>

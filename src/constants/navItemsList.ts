@@ -30,9 +30,4 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         href: "#reviews",
         section: "reviews"
     },
-    {
-        name: "Kontakt",
-        href: "#contact",
-        section: "contact"
-    },
 ]
