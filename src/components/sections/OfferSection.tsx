@@ -1,5 +1,7 @@
 import React from 'react'
 import Container from '../Container'
+import { Button } from '../ui/button'
+import Link from 'next/link'
 
 function OfferSection() {
   return (
@@ -51,6 +53,13 @@ function OfferSection() {
                         Skewb
                     </span>
                 </div>
+            </div>
+            <div className='flex justify-center mt-10'>
+                <Button variant={"secondary"} size={"lg"} asChild>
+                    <Link href={"#contact"}>
+                        Zaczynam naukę!
+                    </Link>
+                </Button>
             </div>
         </Container>
     </section>

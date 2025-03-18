@@ -11,8 +11,8 @@ const buttonVariants = cva(
       variant: {
         default:
           "bg-primary text-white hover:bg-primary2",
-        secondary: "bg-transparent border border-white text-white hover:bg-white hover:text-black",
-        "secondary-black": "bg-transparent border border-black text-black hover:bg-black hover:text-white",
+        secondary: "bg-transparent border-2 border-white text-white hover:bg-white hover:text-black",
+        "secondary-black": "bg-transparent border-2 border-black text-black hover:bg-black hover:text-white",
         icon: "bg-white text-black hover:bg-white/50",
       },
       size: {
