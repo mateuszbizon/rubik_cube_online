@@ -35,17 +35,25 @@ function LessonSection() {
                             <Link href={"https://www.superprof.pl/"} target='_blank' title='Superprof'>Superprof</Link>
                         </p>
                     </div>
+                    <div className='space-y-2'>
+                        <p className='text-lg'>
+                            Lekcje darmowe
+                        </p>
+                        <p className='text-xl font-semibold'>
+                            Pierwsza lekcja
+                        </p>
+                    </div>
                 </div>
 
                 <div className='grow text-xl space-y-5 text-pretty'>
                     <p>
-                        Zajęcia odbywają się na platformie <Link href={"https://www.superprof.pl/"} className='link' target='_blank' title='Superprof'>Superprof</Link> lub na innych znanych platformach tj. Messenger, Whatsapp czy Discord, ale także na takiej której nie znam. W przypadku nowej dla platformy postaram się z nią zapoznać aby na pewno lekcja potoczyła się na odpowiednich warunkach.
+                        Zajęcia odbywają się na platformie <Link href={"https://www.superprof.pl/"} className='link' target='_blank' title='Superprof'>Superprof</Link> lub jeśli będzie to konieczne na innych znanych platformach tj. Messenger, WhatsApp czy Discord, ale także na takiej której nie znam. W przypadku nowej dla platformy postaram się z nią zapoznać aby na pewno lekcja potoczyła się na odpowiednich warunkach.
                     </p>
                     <p>
                         Lekcje odbywają się głównie online jak wspomniałem powyżej lecz istnieje jeszcze szansa spotkania stacjonarnego jeśli jest to w Zgorzelcu, województwo dolnośląskie lub pobliskich miejscowościach.
                     </p>
                     <p>
-                        Lekcja trwa godzinę i kosztuje 50 zł. Aby uczniowie nie tracili pieniędzy na początku w przypadku gdy lekcja się nie spodoba to <strong>pierwsza lekcja jest darmowa</strong>
+                        Lekcja trwa godzinę i kosztuje 50 zł. Dla każdego nowego ucznia, <strong>pierwsze lekcja jest darmowa</strong>, aby sprawdzić czy zajęcia się podobają i czy jest to to czego szukasz.
                     </p>
                 </div>
             </div>
