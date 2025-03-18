@@ -13,7 +13,7 @@ function ReviewsSection() {
     )
 
   return (
-    <section className='py-section bg-gray/30 text-dark'>
+    <section id='reviews' className='py-section bg-gray/30 text-dark'>
         <Container>
             <h2 className='heading2 mb-16'>
                 Opinie moich uczniów

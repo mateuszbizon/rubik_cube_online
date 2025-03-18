@@ -3,6 +3,8 @@ import Container from './Container'
 import { Button } from './ui/button'
 import { MenuIcon } from 'lucide-react'
 import Link from 'next/link'
+import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
+import NavCard from './cards/NavCard'
 
 function RootHeader() {
   return (
@@ -13,8 +15,10 @@ function RootHeader() {
                     <Link href={"/"}>
                         <span className='text-primary text-xl font-bold'>RubikOnline</span>
                     </Link>
-                    <ul className='hidden lg:block'>
-                        <li>Strona główna</li>
+                    <ul className='hidden lg:flex items-center'>
+                        {NAV_ITEMS_LIST.map(item => (
+                            <NavCard key={item.name} navItem={item} />
+                        ))}
                     </ul>
                 </div>
                 <Button size={"icon"} variant={"icon"} className='lg:hidden' aria-label='menu icon'>

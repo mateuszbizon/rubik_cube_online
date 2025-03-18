@@ -6,7 +6,7 @@ import { Mail, Phone } from 'lucide-react'
 
 function ContactSection() {
   return (
-    <section className='py-section text-dark'>
+    <section id='contact' className='py-section text-dark'>
         <Container>
             <h2 className='heading2 mb-16'>
                 Rozpocznijmy naukę

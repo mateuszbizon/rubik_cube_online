@@ -26,6 +26,12 @@
   --spacing-section: 80px;
 }
 
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+}
+
 @layer components {
     .heading1 {
         @apply text-4xl md:text-5xl xl:text-6xl font-bold
