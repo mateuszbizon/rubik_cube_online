@@ -4,12 +4,13 @@ import React from 'react'
 
 type NavCardProps = {
     navItem: NavItem
+    activeLink: string
 }
 
-function NavCard({ navItem }: NavCardProps) {
+function NavCard({ navItem, activeLink }: NavCardProps) {
   return (
     <li className='text-lg'>
-        <Link href={navItem.href} className='nav-link lg:px-5'>
+        <Link href={navItem.href} className={`nav-link lg:px-5 ${activeLink === navItem.section ? "text-primary" : ""}`}>
             {navItem.name}
         </Link>
     </li>
