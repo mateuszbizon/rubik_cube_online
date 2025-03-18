@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 
 function HeroSection() {
   return (
@@ -15,11 +16,15 @@ function HeroSection() {
                         Naucz się układać legendarną łamigłówkę logiczną jaką jest kostka Rubika w przyjazny i zrozumiały sposób.
                     </p>
                     <div className='flex gap-5 justify-center lg:justify-start flex-wrap'>
-                        <Button size={"lg"}>
-                            Rozpocznij
+                        <Button size={"lg"} asChild>
+                            <Link href={"#lesson"}>
+                                Rozpocznij
+                            </Link>
                         </Button>
-                        <Button variant={"secondary-black"} size={"lg"}>
-                            Opinie
+                        <Button variant={"secondary-black"} size={"lg"} asChild>
+                            <Link href={"#reviews"}>
+                                Opinie
+                            </Link>
                         </Button>
                     </div>
                 </div>
