@@ -4,12 +4,13 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 import AnimatedContent from '../animations/AnimatedContent/AnimatedContent'
 import FadeContent from '../animations/FadeContent/FadeContent'
+import Image from 'next/image'
 
 function HeroSection() {
   return (
-    <section id='hero' className="h-[calc(100vh-theme(height.root-header))] header-background">
+    <section id='hero' className="h-[calc(100vh-theme(height.root-header))] header-background overflow-hidden">
         <Container>
-            <div className='h-full grid lg:grid-cols-2'>
+            <div className='h-full grid lg:grid-cols-2 gap-5'>
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
                     <AnimatedContent reverse={true} direction="horizontal">
                         <h1 className='heading1 text-dark'>
@@ -35,6 +36,16 @@ function HeroSection() {
                             </Button>
                         </div>
                     </FadeContent>
+                </div>
+
+                <div className='hidden lg:flex flex-col'>
+                    <div className='mt-auto'>
+                        <AnimatedContent direction='horizontal' delay={1500}>
+                            <div className='relative w-full aspect-square'>
+                                <Image src={"/man_with_cubes.png"} alt='' fill className='rounded-2xl' />
+                            </div>
+                        </AnimatedContent>
+                    </div>
                 </div>
             </div>
         </Container>
