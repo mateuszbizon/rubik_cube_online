@@ -13,7 +13,7 @@ function OfferSection() {
             <div className='grid md:grid-cols-2 gap-10 text-dark text-center mb-16'>
                 <div className='bg-white rounded-2xl p-10 space-y-5'>
                     <h3 className='text-2xl font-semibold'>
-                        Nauka kostki 3x3x3 od zera
+                        Nauka kostki Rubika od zera
                     </h3>
                     <p className='text-xl'>
                         Naucze Cię układać kostkę Rubika od samych podstaw. Używam do tego sposobu opartego na historyjkach, w łatwy i nowoczesny sposób zrozumiały dla każdego, bez ciężkich schematów.
@@ -22,7 +22,7 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 space-y-5'>
                     <h3 className='text-2xl font-semibold'>
-                        Nauka kostki 3x3x3 od konkretnego etapu
+                        Nauka kostki Rubika od konkretnego etapu
                     </h3>
                     <p className='text-xl'>
                         Pomogę Ci poprawić swoje czasy, nieważne czy chcesz nauczyć się metody zaawansowanej czy polepszyć metodę podstawową. Zrobię wszystko abyś układał szybciej niezależnie od tego na co jesteś gotowy :{")"}
