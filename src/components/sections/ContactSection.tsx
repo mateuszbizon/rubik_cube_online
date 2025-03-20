@@ -38,13 +38,13 @@ function ContactSection() {
                     <div className='flex flex-col items-center gap-5'>
                         <Phone className='size-6' />
                         <Link href={"tel:+48723-875-386"} className='nav-link text-white hover:text-dark'>
-                            <span className='text-xl'>+48 723 875 386</span>
+                            <span className='text-lg sm:text-xl font-medium'>+48 723 875 386</span>
                         </Link>
                     </div>
                     <div className='flex flex-col items-center gap-5'>
                         <Mail className='size-6' />
                         <Link href={"mailto:mateuszbizon2000@gmail.com"} className='nav-link text-white hover:text-dark'>
-                            <span className='text-xl'>mateuszbizon2000@gmail.com</span>
+                            <span className='text-lg sm:text-xl font-medium'>mateuszbizon2000@gmail.com</span>
                         </Link>
                     </div>
                 </div>
