@@ -9,6 +9,7 @@ import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
 import NavCard from './cards/NavCard'
 import useScrollSpy from '@/hooks/useScrollSpy'
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet'
+import Image from 'next/image'
 
 function RootHeader() {
     const { activeLink } = useScrollSpy({ navItems: NAV_ITEMS_LIST })
@@ -18,8 +19,10 @@ function RootHeader() {
         <Container>
             <nav className='flex justify-between items-center h-full'>
                 <div className='flex gap-10 items-center'>
-                    <Link href={"/"}>
-                        <span className='text-primary text-xl font-bold'>RubikOnline</span>
+                    <Link href={"/"} title='Strona główna'>
+                        <figure className='relative size-14 rounded-full overflow-hidden'>
+                            <Image src={"/logo.png"} alt='Logo' fill className='object-cover' />
+                        </figure>
                     </Link>
                     <ul className='hidden lg:flex items-center'>
                         {NAV_ITEMS_LIST.map(item => (
