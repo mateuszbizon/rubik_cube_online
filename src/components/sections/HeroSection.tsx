@@ -42,7 +42,7 @@ function HeroSection() {
                     <div className='mt-auto'>
                         <AnimatedContent direction='horizontal' delay={1500}>
                             <div className='relative w-full aspect-square'>
-                                <Image src={"/man_with_cubes2.png"} alt='' fill className='rounded-2xl' />
+                                <Image src={"/man_with_cubes2.png"} alt='Mężczyzna trzymający dwie kostki Rubika. Jedna kostka jest ułożona, a druga nie jest.' fill className='rounded-2xl' />
                             </div>
                         </AnimatedContent>
                     </div>

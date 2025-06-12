@@ -12,7 +12,7 @@ function AboutSection() {
             <div className='grid lg:grid-cols-2 gap-8'>
                 <div>
                     <div className='relative size-[250px] sm:size-[400px] mx-auto'>
-                        <Image src={"/about_img.jpg"} alt='' fill className='rounded-full object-cover' />
+                        <Image src={"/about_img.jpg"} alt='Mężczyna układający kostkę Rubika' fill className='rounded-full object-cover' />
                         {/* <div className='absolute -top-12 -left-12 rounded-full bg-primary text-white flex flex-col items-center justify-center size-[140px] uppercase border-4 border-white'>
                             <span className='text-xl -mt-2'>6 lat</span>
                             <span className='text-sm'>doświadczenia</span>
