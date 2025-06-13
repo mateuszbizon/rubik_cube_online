@@ -14,7 +14,7 @@ function RequireSection() {
                         <Wifi className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Połączenie inernetowe</h3>
-                    <p className='md:text-lg relative'>Jedna rzecz która jest <strong>wymagana</strong> aby móc połączyć się i rozmawiać ze sobą to jest właśnie działający internet. Fajnie gdyby jeszcze inernet był w miarę szybki żeby nie przerywało zajęć.</p>
+                    <p className='md:text-lg relative'>Aby rozpocząć naukę układania kostki Rubika online, potrzebne jest działające połączenie z internetem. Najlepiej, jeśli jest ono stabilne i w miarę szybkie – wtedy lekcje online przebiegają bez zakłóceń i można bez problemu rozmawiać oraz widzieć ruchy na kostce.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -22,7 +22,7 @@ function RequireSection() {
                         <Video className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Kamera</h3>
-                    <p className='md:text-lg relative'>Podczas zajęć wygodne jest jak mogę zobaczyć jak uczeń układa kostkę. W ten sposób widzę popełniane przez niego błedy i jesteśmy w stanie szybciej je poprawić.</p>
+                    <p className='md:text-lg relative'>Podczas lekcji układania kostki Rubika online, bardzo pomocne jest, gdy mogę widzieć, jak uczeń układa kostkę. Dzięki temu łatwiej zauważyć błędy i skuteczniej przekazać wskazówki. Nauka kostki Rubika online staje się wtedy bardziej efektywna i przyjemna.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -30,7 +30,7 @@ function RequireSection() {
                         <Mic className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Mikrofon</h3>
-                    <p className='md:text-lg relative'>Na platformie na której uczymy jest dostępny czat za pomocą którego możemy rozmawiać. Jednak nie jest to tak wygodne jak gdy obie strony mają działający mikrofon.</p>
+                    <p className='md:text-lg relative'>Na platformie na której odbywają się zajęcia jest dostępny czat, jednak podczas nauki układania kostki Rubika online, znacznie lepiej sprawdza się bezpośrednia rozmowa głosowa. Dlatego warto mieć sprawny mikrofon, by móc zadawać pytania i szybciej zrozumieć wskazówki.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -38,7 +38,7 @@ function RequireSection() {
                         <Smile className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Pozytywne nastawienie :)</h3>
-                    <p className='md:text-lg relative'>Dobry humor i uśmiech na twarzy to już połowa sukcesu. Każdy kto przychodzi z pozytywną energią, poprawia od razu jakość rozmowy. Lekcja staje się przyjemniejsza i nie popełnia się tyle błędów ;)</p>
+                    <p className='md:text-lg relative'>Podczas nauki kostki Rubika online, dobry humor i pozytywna energia naprawdę robią różnicę! Zajęcia przebiegają wtedy w miłej atmosferze, a uczniowie uczą się szybciej i z większą przyjemnością. Uśmiech na twarzy i pozytywne nastawienie to połowa sukcesu ;)</p>
                 </CardSpotlight>
             </Container>
         </Container>
