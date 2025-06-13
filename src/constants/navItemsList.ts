@@ -1,7 +1,7 @@
 export type NavItem = {
     name: string
     href: string
-    section: string
+    section: string | null
 }
 
 export const NAV_ITEMS_LIST: NavItem[] = [
@@ -29,5 +29,5 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         name: "Opinie",
         href: "#reviews",
         section: "reviews"
-    },
+    }
 ]

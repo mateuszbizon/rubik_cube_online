@@ -6,14 +6,14 @@ type Props = {
 }
 
 function useScrollSpy({ navItems }: Props) {
-    const [activeLink, setActiveLink] = useState<string>(navItems[0].section)
+    const [activeLink, setActiveLink] = useState<string>(navItems[0].href)
 
     function checkActiveLink() {
         for (let i = navItems.length - 1; i >= 0; i--) {
-            const section = document.getElementById(navItems[i].section)
+            const section = document.getElementById(navItems[i].section!)
 
             if (section && section.getBoundingClientRect().top < window.innerHeight / 2) {
-                setActiveLink(navItems[i].section)
+                setActiveLink(navItems[i].href)
                 break
             }
         }
@@ -25,7 +25,7 @@ function useScrollSpy({ navItems }: Props) {
         document.addEventListener("scroll", checkActiveLink)
 
         return () => {
-        document.removeEventListener("scroll", checkActiveLink)
+            document.removeEventListener("scroll", checkActiveLink)
         }
     }, [])
     
