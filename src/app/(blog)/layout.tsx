@@ -1,3 +1,5 @@
+import BlogHeader from "@/components/BlogHeader";
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -5,6 +7,7 @@ export default function RootLayout({
 }>) {
     return (
         <main>
+            <BlogHeader />
             {children}
         </main>
     )
