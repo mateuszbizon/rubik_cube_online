@@ -284,3 +284,43 @@ export type SanityAssetSourceData = {
 
 export type AllSanitySchemaTypes = Post | Author | Category | BlockContent | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityImageAsset | SanityImageMetadata | Geopoint | Slug | SanityAssetSourceData;
 export declare const internalGroqTypeReferenceTo: unique symbol;
+// Source: ./src/sanity/lib/queries.ts
+// Variable: GET_ALL_BLOGS_QUERY
+// Query: *[_type == "post"] | order(_createdAt desc) {        _id, _createdAt, title, slug, categories[]->, mainImage    }
+export type GET_ALL_BLOGS_QUERYResult = Array<{
+  _id: string;
+  _createdAt: string;
+  title: string | null;
+  slug: Slug | null;
+  categories: Array<{
+    _id: string;
+    _type: "category";
+    _createdAt: string;
+    _updatedAt: string;
+    _rev: string;
+    title?: string;
+    slug?: Slug;
+    description?: string;
+  }> | null;
+  mainImage: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  } | null;
+}>;
+
+// Query TypeMap
+import "@sanity/client";
+declare module "@sanity/client" {
+  interface SanityQueries {
+    "\n    *[_type == \"post\"] | order(_createdAt desc) {\n        _id, _createdAt, title, slug, categories[]->, mainImage\n    }\n": GET_ALL_BLOGS_QUERYResult;
+  }
+}
