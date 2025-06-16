@@ -21,7 +21,7 @@ async function SingleBlogPage({ params }: Props) {
 
   return (
     <>
-        <section className='header-background py-section rounded-b-4xl'>
+        <section className='header-background py-[calc(var(--spacing-section)*2)] rounded-b-4xl'>
             <Container>
                 <h1 className='heading1 text-dark text-center'>{blog.title}</h1>
             </Container>
@@ -29,11 +29,13 @@ async function SingleBlogPage({ params }: Props) {
         <section className='pb-section'>
             <Container>
                 {blog.mainImage && (
-                    <figure className='relative aspect-video -mt-8'>
+                    <figure className='relative aspect-video -mt-10'>
                         <Image src={urlFor(blog.mainImage).url()} alt={blog.mainImage.alt || ""} fill className='object-contain' />
                     </figure>
                 )}
-                <div className='prose mt-10'>
+            </Container>
+            <Container className='bg-gray/30 rounded-2xl py-10 mt-10'>
+                <div className='prose'>
                     {Array.isArray(blog.body) && <PortableText value={blog.body} />}
                 </div>
             </Container>
