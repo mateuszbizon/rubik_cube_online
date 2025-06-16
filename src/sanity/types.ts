@@ -316,11 +316,73 @@ export type GET_ALL_BLOGS_QUERYResult = Array<{
     _type: "image";
   } | null;
 }>;
+// Variable: GET_SINGLE_BLOG_QUERY
+// Query: *[_type == "post" && slug.current == $slug][0] {        _id, _createdAt, title, categories[]->, body[], mainImage    }
+export type GET_SINGLE_BLOG_QUERYResult = {
+  _id: string;
+  _createdAt: string;
+  title: string | null;
+  categories: Array<{
+    _id: string;
+    _type: "category";
+    _createdAt: string;
+    _updatedAt: string;
+    _rev: string;
+    title?: string;
+    slug?: Slug;
+    description?: string;
+  }> | null;
+  body: Array<{
+    children?: Array<{
+      marks?: Array<string>;
+      text?: string;
+      _type: "span";
+      _key: string;
+    }>;
+    style?: "blockquote" | "h1" | "h2" | "h3" | "h4" | "normal";
+    listItem?: "bullet";
+    markDefs?: Array<{
+      href?: string;
+      _type: "link";
+      _key: string;
+    }>;
+    level?: number;
+    _type: "block";
+    _key: string;
+  } | {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+    _key: string;
+  }> | null;
+  mainImage: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  } | null;
+} | null;
 
 // Query TypeMap
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
     "\n    *[_type == \"post\"] | order(_createdAt desc) {\n        _id, _createdAt, title, slug, categories[]->, mainImage\n    }\n": GET_ALL_BLOGS_QUERYResult;
+    "\n    *[_type == \"post\" && slug.current == $slug][0] {\n        _id, _createdAt, title, categories[]->, body[], mainImage\n    }    \n": GET_SINGLE_BLOG_QUERYResult;
   }
 }
