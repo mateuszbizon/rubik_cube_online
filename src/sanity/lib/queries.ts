@@ -11,3 +11,9 @@ export const GET_SINGLE_BLOG_QUERY = defineQuery(`
         _id, _createdAt, title, categories[]->, body[], mainImage
     }    
 `)
+
+export const GET_RECENT_BLOGS_QUERY = defineQuery(`
+    *[_type == "post"] | order(_createdAt desc)[0...3] {
+        _id, _createdAt, title, slug, categories[]->, mainImage
+    }
+`)

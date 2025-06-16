@@ -377,6 +377,37 @@ export type GET_SINGLE_BLOG_QUERYResult = {
     _type: "image";
   } | null;
 } | null;
+// Variable: GET_RECENT_BLOGS_QUERY
+// Query: *[_type == "post"] | order(_createdAt desc)[0...3] {        _id, _createdAt, title, slug, categories[]->, mainImage    }
+export type GET_RECENT_BLOGS_QUERYResult = Array<{
+  _id: string;
+  _createdAt: string;
+  title: string | null;
+  slug: Slug | null;
+  categories: Array<{
+    _id: string;
+    _type: "category";
+    _createdAt: string;
+    _updatedAt: string;
+    _rev: string;
+    title?: string;
+    slug?: Slug;
+    description?: string;
+  }> | null;
+  mainImage: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  } | null;
+}>;
 
 // Query TypeMap
 import "@sanity/client";
@@ -384,5 +415,6 @@ declare module "@sanity/client" {
   interface SanityQueries {
     "\n    *[_type == \"post\"] | order(_createdAt desc) {\n        _id, _createdAt, title, slug, categories[]->, mainImage\n    }\n": GET_ALL_BLOGS_QUERYResult;
     "\n    *[_type == \"post\" && slug.current == $slug][0] {\n        _id, _createdAt, title, categories[]->, body[], mainImage\n    }    \n": GET_SINGLE_BLOG_QUERYResult;
+    "\n    *[_type == \"post\"] | order(_createdAt desc)[0...3] {\n        _id, _createdAt, title, slug, categories[]->, mainImage\n    }\n": GET_RECENT_BLOGS_QUERYResult;
   }
 }
