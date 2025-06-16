@@ -53,7 +53,7 @@ function BlogHeader() {
                             <div className='flex justify-center mt-1'>
                                 <SheetClose asChild>
                                     <Button className='text-lg' asChild>
-                                        <Link href={"#start-lesson"}>
+                                        <Link href={"/#start-lesson"}>
                                             Zaczynam naukę
                                         </Link>
                                     </Button>
@@ -62,7 +62,7 @@ function BlogHeader() {
                         </SheetContent>
                     </Sheet>
                     <Button size={"lg"} className='hidden lg:inline-flex text-lg' asChild>
-                        <Link href={"#start-lesson"}>
+                        <Link href={"/#start-lesson"}>
                             Zaczynam naukę
                         </Link>
                     </Button>
