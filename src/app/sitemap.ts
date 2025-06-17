@@ -5,7 +5,9 @@ import type { MetadataRoute } from 'next'
 export const baseUrl = "https://naukakostkirubikaonline.vercel.app"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const blogs = await client.fetch(GET_ALL_BLOGS_QUERY)
+    const blogs = await client.withConfig({
+        useCdn: false
+    }).fetch(GET_ALL_BLOGS_QUERY)
 
     const blogLinks = blogs.map(post => ({
         url: `${baseUrl}/blog/${post.slug?.current}`,

@@ -4,7 +4,9 @@ import React from 'react'
 import BlogCard from '../cards/BlogCard'
 
 async function AllBlogs() {
-    const blogs = await client.fetch(GET_ALL_BLOGS_QUERY)
+    const blogs = await client.withConfig({
+        useCdn: false
+    }).fetch(GET_ALL_BLOGS_QUERY)
 
   return (
     <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10'>
