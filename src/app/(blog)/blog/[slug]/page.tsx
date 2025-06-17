@@ -34,7 +34,7 @@ async function SingleBlogPage({ params }: Props) {
                     </figure>
                 )}
             </Container>
-            <Container className='bg-gray/30 rounded-2xl py-10 mt-10'>
+            <Container className='bg-light/50 rounded-2xl py-10 mt-10 max-w-[700px]'>
                 <div className='prose'>
                     {Array.isArray(blog.body) && <PortableText value={blog.body} />}
                 </div>
