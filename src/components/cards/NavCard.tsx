@@ -7,7 +7,7 @@ import React from 'react'
 
 type NavCardProps = {
     navItem: NavItem
-    activeLink: string
+    activeLink?: string
 }
 
 function NavCard({ navItem, activeLink }: NavCardProps) {

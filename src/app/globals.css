@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
+@plugin "@tailwindcss/typography";
 
 :root {
   --primary: #1982C4;
@@ -24,6 +25,7 @@
   --color-purple: var(--purple);
   --spacing-root-header: 70px;
   --spacing-section: 80px;
+  --animate-rotate: rotate 1s infinite steps(10)
 }
 
 @layer base {
@@ -58,5 +60,22 @@
             farthest-corner circle at top right in oklab,
             var(--primary) 0%, var(--yellow) 100%
         );
+    }
+}
+
+@layer utilities {
+    .mask {
+        --b: 8px; 
+        mask:
+            repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+            radial-gradient(farthest-side,#0000 calc(100% - var(--b) - 1px),#000 calc(100% - var(--b)));
+        -webkit-mask-composite: destination-in;
+        mask-composite: intersect;
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(1turn);
     }
 }

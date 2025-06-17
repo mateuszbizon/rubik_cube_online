@@ -29,5 +29,38 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         name: "Opinie",
         href: "#reviews",
         section: "reviews"
+    },
+    {
+        name: "Blog",
+        href: "/blog",
+        section: null
+    },
+]
+
+export const BLOG_NAV_ITEMS_LIST: NavItem[] = [
+    {
+        name: "Główna",
+        href: "/",
+        section: null
+    },
+    {
+        name: "O mnie",
+        href: "/#about",
+        section: null
+    },
+    {
+        name: "Lekcja",
+        href: "/#lesson",
+        section: null
+    },
+    {
+        name: "Oferta",
+        href: "/#offer",
+        section: null
+    },
+    {
+        name: "Opinie",
+        href: "/#reviews",
+        section: null
     }
 ]
