@@ -6,7 +6,7 @@ function LessonSection() {
   return (
     <section id='lesson' className='py-section text-dark'>
         <Container>
-            <h2 className='heading2 mb-16'>
+            <h2 className='heading2 heading-margin-bottom'>
                 Jak przebiega lekcja
             </h2>
             <div className='flex flex-col md:flex-row gap-8'>

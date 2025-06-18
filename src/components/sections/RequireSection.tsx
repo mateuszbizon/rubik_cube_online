@@ -7,7 +7,7 @@ function RequireSection() {
   return (
     <section className='py-section bg-dark text-white'>
         <Container>
-            <h2 className='heading2 text-center mb-16'>Co jest potrzebne aby zacząć naukę kostki Rubika online?</h2>
+            <h2 className='heading2 text-center heading-margin-bottom'>Co jest potrzebne aby zacząć naukę kostki Rubika online?</h2>
             <Container className='space-y-14 h-auto w-full max-w-[600px] px-0'>
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                     <div className='absolute -top-6 left-10 rounded-full bg-dark size-12 flex justify-center items-center'>

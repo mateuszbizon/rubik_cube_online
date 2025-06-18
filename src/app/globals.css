@@ -47,6 +47,10 @@
         @apply text-lg md:text-xl lg:text-2xl font-medium
     }
 
+    .heading-margin-bottom {
+        @apply mb-10 md:mb-16
+    }
+
     .link {
         @apply text-primary hover:text-primary2 transition-colors duration-300
     }

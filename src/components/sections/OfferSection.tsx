@@ -7,7 +7,7 @@ function OfferSection() {
   return (
     <section id='offer' className='bg-primary/70 py-section text-white'>
         <Container>
-            <h2 className='heading2 mb-16'>
+            <h2 className='heading2 heading-margin-bottom'>
                 Co mogę zaoferować
             </h2>
             <div className='grid md:grid-cols-2 gap-10 text-dark text-center mb-16'>

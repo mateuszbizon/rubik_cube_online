@@ -8,7 +8,7 @@ function ContactSection() {
   return (
     <section id='start-lesson' className='py-section text-dark'>
         <Container>
-            <h2 className='heading2 mb-16'>
+            <h2 className='heading2 text-dark heading-margin-bottom'>
                 Rozpocznijmy naukę
             </h2>
             <div className='bg-orange rounded-4xl text-center p-10 space-y-10 mb-16'>

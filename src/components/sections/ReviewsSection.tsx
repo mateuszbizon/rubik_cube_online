@@ -17,7 +17,7 @@ function ReviewsSection() {
   return (
     <section id='reviews' className='py-section bg-gray/30 text-dark'>
         <Container>
-            <h2 className='heading2 mb-16'>
+            <h2 className='heading2 heading-margin-bottom'>
                 Opinie moich uczniów
             </h2>
             <Carousel

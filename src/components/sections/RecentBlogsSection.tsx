@@ -7,7 +7,7 @@ function RecentBlogsSection() {
   return (
     <section className='py-section bg-light/50'>
         <Container>
-            <h2 className='heading2 text-center text-dark mb-10'>Ostatnie wpisy na bloga</h2>
+            <h2 className='heading2 text-center text-dark heading-margin-bottom'>Ostatnie wpisy na bloga</h2>
             <Suspense fallback={<GridLoading />}>
                 <RecentBlogs />
             </Suspense>
