@@ -9,7 +9,7 @@ import { HERO_IMG } from '@/constants/images'
 
 function HeroSection() {
   return (
-    <section className="pt-[calc(theme(spacing.section)*2)] lg:h-screen lg:py-0 header-background overflow-hidden">
+    <header className="pt-[calc(theme(spacing.section)*2)] lg:h-screen lg:py-0 header-background overflow-hidden">
         <Container>
             <div className='h-full grid lg:grid-cols-2 gap-5'>
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
@@ -50,7 +50,7 @@ function HeroSection() {
                 </div>
             </div>
         </Container>
-    </section>
+    </header>
   )
 }
 

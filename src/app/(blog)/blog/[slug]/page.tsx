@@ -1,3 +1,4 @@
+import SubPageHero from '@/components/sections/SubPageHero'
 import Container from '@/components/ui/container'
 import { client } from '@/sanity/lib/client'
 import { urlFor } from '@/sanity/lib/image'
@@ -21,20 +22,16 @@ async function SingleBlogPage({ params }: Props) {
 
   return (
     <>
-        <section className='header-background pt-[calc(theme(spacing.section)*2)] rounded-b-4xl'>
-            <Container>
-                <h1 className='heading1 text-foreground text-center'>{blog.title}</h1>
-            </Container>
-        </section>
-        <section className='pb-section'>
-            <Container>
+        <SubPageHero title={blog.title!} />
+        <section className='pb-section bg-white'>
+            <Container className='pt-5'>
                 {blog.mainImage && (
-                    <figure className='relative aspect-video -mt-10'>
+                    <figure className='relative aspect-video'>
                         <Image src={urlFor(blog.mainImage).url()} alt={blog.mainImage.alt || ""} fill className='object-contain' />
                     </figure>
                 )}
             </Container>
-            <Container className='bg-background-light/50 rounded-2xl py-10 mt-10 max-w-[700px]'>
+            <Container className='bg-background-light/70 rounded-2xl py-10 mt-10 max-w-[700px]'>
                 <div className='prose'>
                     {Array.isArray(blog.body) && <PortableText value={blog.body} />}
                 </div>
