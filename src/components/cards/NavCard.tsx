@@ -1,23 +1,51 @@
 "use client"
 
-import { NavItem } from '@/constants/navItemsList'
+import { NavItem } from '@/types'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import { NavigationMenuContent, NavigationMenuLink, NavigationMenuTrigger } from '../ui/navigation-menu'
+import { Button, buttonVariants } from '../ui/button'
 
 type NavCardProps = {
-    navItem: NavItem
-    activeLink?: string
+    item: NavItem
 }
 
-function NavCard({ navItem, activeLink }: NavCardProps) {
+function NavCard({ item }: NavCardProps) {
     const pathName = usePathname()
-    const isLinkActive = navItem.section ? navItem.href === activeLink : navItem.href === pathName
+    const isActive = pathName === item.href
 
   return (
-    <Link href={navItem.href} className={`nav-link text-lg font-medium lg:px-5 ${isLinkActive ? "text-primary" : ""}`}>
-        {navItem.name}
-    </Link>
+    <>
+        {item.isLink ? (
+            <NavigationMenuLink asChild>
+                <Button className={`py-0 px-6 ${isActive ? "text-primary" : "text-foreground"} hover:text-primary text-lg`} variant={"link"} asChild>
+                    <Link href={item.href}>
+                        {item.label}
+                    </Link>
+                </Button>
+            </NavigationMenuLink>
+        ) : (
+            <>
+                <NavigationMenuTrigger className={`${buttonVariants({ variant: "link" })} py-0 text-foreground hover:primary text-lg`}>
+                    {item.label}
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                    <ul className='space-y-1'>
+                        {item.menu.map(menuItem =>  (
+                            <li key={menuItem.label}>
+                                <Button variant={"link"} className='text-foreground hover:text-primary text-lg' asChild>
+                                    <Link href={menuItem.href}>
+                                        {menuItem.label}
+                                    </Link>
+                                </Button>
+                            </li>
+                        ))}
+                    </ul>
+                </NavigationMenuContent>
+            </>
+        )}
+    </>
   )
 }
 
