@@ -5,31 +5,32 @@ import AnimatedContent from '../animations/AnimatedContent/AnimatedContent'
 import FadeContent from '../animations/FadeContent/FadeContent'
 import Image from 'next/image'
 import Container from '../ui/container'
+import { HERO_IMG } from '@/constants/images'
 
 function HeroSection() {
   return (
-    <section id='hero' className="h-[calc(100vh-theme(height.nav-height))] header-background overflow-hidden">
+    <section className="pt-[calc(theme(spacing.section)*2)] lg:h-screen lg:py-0 header-background overflow-hidden">
         <Container>
             <div className='h-full grid lg:grid-cols-2 gap-5'>
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
                     <AnimatedContent reverse={true} direction="horizontal">
-                        <h1 className='heading1 text-foreground'>
+                        <h1 className='heading1'>
                             Nauka kostki Rubika online
                         </h1>
                     </AnimatedContent>
                     <AnimatedContent delay={500}>
-                        <p className='text-2xl font-medium'>
+                        <p className='bigger-text'>
                             Naucz się układać legendarną łamigłówkę logiczną jaką jest kostka Rubika w przyjazny i zrozumiały sposób.
                         </p>
                     </AnimatedContent>
                     <FadeContent blur={true} delay={1500}>
                         <div className='flex gap-5 justify-center lg:justify-start flex-wrap'>
-                            <Button size={"lg"} asChild>
+                            <Button size={"lg"} className='text-lg' asChild>
                                 <Link href={"#lesson"}>
                                     Rozpocznij
                                 </Link>
                             </Button>
-                            <Button variant={"secondary-black"} size={"lg"} asChild>
+                            <Button variant={"secondary-black"} size={"lg"} className='text-lg' asChild>
                                 <Link href={"#reviews"}>
                                     Opinie
                                 </Link>
@@ -38,12 +39,12 @@ function HeroSection() {
                     </FadeContent>
                 </div>
 
-                <div className='hidden lg:flex flex-col'>
+                <div className='flex flex-col'>
                     <div className='mt-auto'>
                         <AnimatedContent direction='horizontal' delay={1500}>
-                            <div className='relative w-full aspect-square'>
-                                <Image src={"/man_with_cubes2.png"} alt='Mężczyzna trzymający dwie kostki Rubika. Jedna kostka jest ułożona, a druga nie jest.' fill className='rounded-2xl' />
-                            </div>
+                            <figure className='relative w-full aspect-square max-w-[500px] lg:max-w-[600px] mx-auto'>
+                                <Image src={HERO_IMG.src} alt={HERO_IMG.alt} fill />
+                            </figure>
                         </AnimatedContent>
                     </div>
                 </div>

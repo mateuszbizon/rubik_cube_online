@@ -15,7 +15,7 @@ function Nav() {
     const { activeLink } = useScrollSpy({ navItems: NAV_ITEMS_LIST })
 
   return (
-    <header className='sticky top-0 h-nav-height bg-white z-10'>
+    <header className='fixed top-0 h-nav-height bg-white z-10 w-full'>
         <Container>
             <nav className='flex justify-between items-center h-full'>
                 <div className='flex gap-10 items-center'>
@@ -42,7 +42,7 @@ function Nav() {
                         </SheetTrigger>
                         <SheetContent className='py-12 px-4'>
                             <SheetHeader className='hidden'>
-                                <SheetTitle>Mobile side navigation</SheetTitle>
+                                <SheetTitle>Mobilna nawigacja</SheetTitle>
                             </SheetHeader>
                             <ul className='space-y-5'>
                                 {NAV_ITEMS_LIST.map(item => (
@@ -66,7 +66,7 @@ function Nav() {
                             </div>
                         </SheetContent>
                     </Sheet>
-                    <Button size={"lg"} className='hidden lg:inline-flex text-lg' asChild>
+                    <Button className='hidden lg:inline-flex' asChild>
                         <Link href={"#start-lesson"}>
                             Zaczynam naukę
                         </Link>
