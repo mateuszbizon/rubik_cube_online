@@ -21,7 +21,7 @@ async function SingleBlogPage({ params }: Props) {
 
   return (
     <>
-        <section className='header-background py-[calc(var(--spacing-section)*2)] rounded-b-4xl'>
+        <section className='header-background pt-[calc(theme(spacing.section)*2)] rounded-b-4xl'>
             <Container>
                 <h1 className='heading1 text-foreground text-center'>{blog.title}</h1>
             </Container>

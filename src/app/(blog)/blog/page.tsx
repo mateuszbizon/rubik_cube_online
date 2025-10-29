@@ -5,7 +5,7 @@ import React, { Suspense } from 'react'
 
 function BlogPage() {
   return (
-    <div className='py-10'>
+    <div className='pt-[calc(theme(spacing.section)*2)] pb-section'>
         <Container>
             <h1 className='heading1 mb-10'>Blogi</h1>
             <p className='bigger-text mb-7'>Poniżej znajdziesz listę wszystkich blogów utworzonych na tej stronie</p>

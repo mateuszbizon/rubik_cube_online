@@ -1,4 +1,4 @@
-import BlogHeader from "@/components/common/BlogHeader";
+import Nav from "@/components/common/Nav";
 
 
 export default function RootLayout({
@@ -7,9 +7,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <main>
-            <BlogHeader />
-            {children}
-        </main>
+        <>
+            <Nav />
+            <main>
+                {children}
+            </main>
+        </>
     )
 }
