@@ -10,7 +10,7 @@ function OfferSection() {
             <h2 className='heading2 heading-margin-bottom'>
                 Co mogę zaoferować
             </h2>
-            <div className='grid md:grid-cols-2 gap-10 text-dark text-center mb-16'>
+            <div className='grid md:grid-cols-2 gap-10 text-foreground text-center mb-16'>
                 <div className='bg-white rounded-2xl p-10 space-y-5'>
                     <h3 className='text-2xl font-semibold'>
                         Nauka kostki Rubika od zera
@@ -32,7 +32,7 @@ function OfferSection() {
             <p className='text-2xl font-medium mb-16'>
                 Oprócz standardowej kostki Rubika, uczę także innych łamigłówek:
             </p>
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-dark text-center gap-10'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-foreground text-center gap-10'>
                 <div className='bg-white rounded-2xl p-5'>
                     <span className='text-xl'>
                         Kostka 2x2x2

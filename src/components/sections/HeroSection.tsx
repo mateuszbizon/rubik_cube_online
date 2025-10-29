@@ -8,12 +8,12 @@ import Image from 'next/image'
 
 function HeroSection() {
   return (
-    <section id='hero' className="h-[calc(100vh-theme(height.root-header))] header-background overflow-hidden">
+    <section id='hero' className="h-[calc(100vh-theme(height.nav-height))] header-background overflow-hidden">
         <Container>
             <div className='h-full grid lg:grid-cols-2 gap-5'>
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
                     <AnimatedContent reverse={true} direction="horizontal">
-                        <h1 className='heading1 text-dark'>
+                        <h1 className='heading1 text-foreground'>
                             Nauka kostki Rubika online
                         </h1>
                     </AnimatedContent>

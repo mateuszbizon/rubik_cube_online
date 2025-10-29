@@ -6,9 +6,9 @@ import Image from 'next/image'
 
 function AboutSection() {
   return (
-    <section id='about' className='py-section bg-light/70'>
+    <section id='about' className='py-section bg-background-light/70'>
         <Container>
-            <h2 className='heading2 heading-margin-bottom text-dark'>Trochę o mnie</h2>
+            <h2 className='heading2 heading-margin-bottom text-foreground'>Trochę o mnie</h2>
             <div className='grid lg:grid-cols-2 gap-8'>
                 <div>
                     <div className='relative size-[250px] sm:size-[400px] mx-auto'>

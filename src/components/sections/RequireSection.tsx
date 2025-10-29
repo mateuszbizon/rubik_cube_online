@@ -5,12 +5,12 @@ import { CardSpotlight } from '../ui/card-spotlight'
 
 function RequireSection() {
   return (
-    <section className='py-section bg-dark text-white'>
+    <section className='py-section bg-foreground text-white'>
         <Container>
             <h2 className='heading2 text-center heading-margin-bottom'>Co jest potrzebne aby zacząć naukę kostki Rubika online?</h2>
             <Container className='space-y-14 h-auto w-full max-w-[600px] px-0'>
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
-                    <div className='absolute -top-6 left-10 rounded-full bg-dark size-12 flex justify-center items-center'>
+                    <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Wifi className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Połączenie inernetowe</h3>
@@ -18,7 +18,7 @@ function RequireSection() {
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
-                    <div className='absolute -top-6 left-10 rounded-full bg-dark size-12 flex justify-center items-center'>
+                    <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Video className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Kamera</h3>
@@ -26,7 +26,7 @@ function RequireSection() {
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
-                    <div className='absolute -top-6 left-10 rounded-full bg-dark size-12 flex justify-center items-center'>
+                    <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Mic className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Mikrofon</h3>
@@ -34,7 +34,7 @@ function RequireSection() {
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
-                    <div className='absolute -top-6 left-10 rounded-full bg-dark size-12 flex justify-center items-center'>
+                    <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Smile className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Pozytywne nastawienie :)</h3>

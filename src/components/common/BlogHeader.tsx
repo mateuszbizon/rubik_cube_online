@@ -10,7 +10,7 @@ import { BLOG_NAV_ITEMS_LIST } from '@/constants/navItemsList'
 
 function BlogHeader() {
   return (
-    <header className='sticky top-0 h-root-header bg-white z-10'>
+    <header className='sticky top-0 h-nav-height bg-white z-10'>
         <Container>
             <nav className='flex justify-between items-center h-full'>
                 <div className='flex gap-10 items-center'>

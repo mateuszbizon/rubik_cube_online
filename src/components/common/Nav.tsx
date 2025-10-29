@@ -15,7 +15,7 @@ function Nav() {
     const { activeLink } = useScrollSpy({ navItems: NAV_ITEMS_LIST })
 
   return (
-    <header className='sticky top-0 h-root-header bg-white z-10'>
+    <header className='sticky top-0 h-nav-height bg-white z-10'>
         <Container>
             <nav className='flex justify-between items-center h-full'>
                 <div className='flex gap-10 items-center'>

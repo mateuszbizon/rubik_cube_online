@@ -5,7 +5,7 @@ import Shadow from '../ui/shadow'
 
 function QuoteSection() {
   return (
-    <section className='relative text-light py-[100px] bg-[url(/quote_bg_small.jpg)] md:bg-[url(/quote_bg_medium.jpg)] bg-center bg-no-repeat bg-cover bg-fixed z-0'>
+    <section className='relative text-background-light py-[100px] bg-[url(/quote_bg_small.jpg)] md:bg-[url(/quote_bg_medium.jpg)] bg-center bg-no-repeat bg-cover bg-fixed z-0'>
         <Shadow />
         <Quote className='absolute top-10 right-10 md:right-20 size-9 rotate-12' />
         <Quote className='absolute bottom-10 left-10 md:left-20 size-9 -rotate-30' />

@@ -1,4 +1,5 @@
-import BlogHeader from "@/components/BlogHeader";
+import BlogHeader from "@/components/common/BlogHeader";
+
 
 export default function RootLayout({
     children,

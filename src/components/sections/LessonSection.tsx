@@ -4,13 +4,13 @@ import Link from 'next/link'
 
 function LessonSection() {
   return (
-    <section id='lesson' className='py-section text-dark'>
+    <section id='lesson' className='py-section text-foreground'>
         <Container>
             <h2 className='heading2 heading-margin-bottom'>
                 Jak przebiega lekcja
             </h2>
             <div className='flex flex-col md:flex-row gap-8'>
-                <div className='bg-dark rounded-xl p-10 space-y-5 md:order-2 md:w-[300px] text-center md:text-left text-white shrink-0 flex flex-col justify-center'>
+                <div className='bg-foreground rounded-xl p-10 space-y-5 md:order-2 md:w-[300px] text-center md:text-left text-white shrink-0 flex flex-col justify-center'>
                     <div className='space-y-2'>
                         <p className='text-lg'>
                             Czas trwania
