@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
 import useScrollSpy from '@/hooks/useScrollSpy'
 import Image from 'next/image'
-import Container from '../ui/container'
 import { Button } from '../ui/button'
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '../ui/sheet'
 import NavCard from '../cards/NavCard'
+import Container from '../ui/container'
 
 function Nav() {
     const { activeLink } = useScrollSpy({ navItems: NAV_ITEMS_LIST })

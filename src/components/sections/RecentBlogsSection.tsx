@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
-import Container from '../ui/container'
 import RecentBlogs from '../blog/RecentBlogs'
 import GridLoading from '../ui/grid-loading'
+import Container from '../ui/container'
 
 function RecentBlogsSection() {
   return (

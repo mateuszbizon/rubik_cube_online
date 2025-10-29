@@ -1,10 +1,10 @@
 import React from 'react'
-import Container from '../ui/container'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import AnimatedContent from '../animations/AnimatedContent/AnimatedContent'
 import FadeContent from '../animations/FadeContent/FadeContent'
 import Image from 'next/image'
+import Container from '../ui/container'
 
 function HeroSection() {
   return (

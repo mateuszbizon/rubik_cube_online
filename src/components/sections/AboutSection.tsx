@@ -1,14 +1,14 @@
 import React from 'react'
-import Container from '../ui/container'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import Image from 'next/image'
+import Container from '../ui/container'
 
 function AboutSection() {
   return (
     <section id='about' className='py-section bg-background-light/70'>
         <Container>
-            <h2 className='heading2 heading-margin-bottom text-foreground'>Trochę o mnie</h2>
+            <h2 className='heading2 heading-margin-bottom'>Trochę o mnie</h2>
             <div className='grid lg:grid-cols-2 gap-8'>
                 <div>
                     <div className='relative size-[250px] sm:size-[400px] mx-auto'>

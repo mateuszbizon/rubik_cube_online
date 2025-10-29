@@ -1,12 +1,12 @@
 import React from 'react'
-import Container from './Container'
 import Link from 'next/link'
 import Image from "next/image"
-import NavCard from './cards/NavCard'
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet'
-import { Button } from './ui/button'
 import { MenuIcon } from 'lucide-react'
 import { BLOG_NAV_ITEMS_LIST } from '@/constants/navItemsList'
+import NavCard from '../cards/NavCard'
+import Container from '../ui/container'
+import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '../ui/sheet'
+import { Button } from '../ui/button'
 
 function BlogHeader() {
   return (

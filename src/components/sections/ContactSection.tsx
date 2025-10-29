@@ -1,8 +1,8 @@
 import React from 'react'
-import Container from '../ui/container'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import { Mail, Phone } from 'lucide-react'
+import Container from '../ui/container'
 
 function ContactSection() {
   return (

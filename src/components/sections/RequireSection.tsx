@@ -1,7 +1,7 @@
 import React from 'react'
-import Container from '../ui/container'
 import { Mic, Smile, Video, Wifi } from 'lucide-react'
 import { CardSpotlight } from '../ui/card-spotlight'
+import Container from '../ui/container'
 
 function RequireSection() {
   return (

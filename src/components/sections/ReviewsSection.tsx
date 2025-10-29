@@ -1,13 +1,13 @@
 "use client"
 
 import React from 'react'
-import Container from '../ui/container'
 import { Carousel, CarouselContent, CarouselNext, CarouselPrevious } from '../ui/carousel'
 import Autoplay from "embla-carousel-autoplay"
 import { REVIEWS_LIST } from '@/constants/reviewsList'
 import ReviewCard from '../cards/ReviewCard'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import Container from '../ui/container'
 
 function ReviewsSection() {
     const plugin = React.useRef(

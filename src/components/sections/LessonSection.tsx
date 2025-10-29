@@ -1,6 +1,6 @@
 import React from 'react'
-import Container from '../ui/container'
 import Link from 'next/link'
+import Container from '../ui/container'
 
 function LessonSection() {
   return (

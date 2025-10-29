@@ -1,7 +1,7 @@
 import React from 'react'
-import Container from '../ui/container'
 import { Quote } from 'lucide-react'
 import Shadow from '../ui/shadow'
+import Container from '../ui/container'
 
 function QuoteSection() {
   return (
