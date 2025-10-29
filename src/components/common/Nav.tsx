@@ -1,17 +1,17 @@
 "use client"
 
 import React from 'react'
-import Container from './Container'
-import { Button } from './ui/button'
 import { MenuIcon } from 'lucide-react'
 import Link from 'next/link'
 import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
-import NavCard from './cards/NavCard'
 import useScrollSpy from '@/hooks/useScrollSpy'
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet'
 import Image from 'next/image'
+import Container from '../ui/container'
+import { Button } from '../ui/button'
+import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '../ui/sheet'
+import NavCard from '../cards/NavCard'
 
-function RootHeader() {
+function Nav() {
     const { activeLink } = useScrollSpy({ navItems: NAV_ITEMS_LIST })
 
   return (
@@ -78,4 +78,4 @@ function RootHeader() {
   )
 }
 
-export default RootHeader
+export default Nav

@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import { Carousel, CarouselContent, CarouselNext, CarouselPrevious } from '../ui/carousel'
 import Autoplay from "embla-carousel-autoplay"
 import { REVIEWS_LIST } from '@/constants/reviewsList'

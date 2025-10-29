@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import { Quote } from 'lucide-react'
 import Shadow from '../ui/shadow'
 

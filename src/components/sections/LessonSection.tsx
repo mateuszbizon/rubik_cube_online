@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import Link from 'next/link'
 
 function LessonSection() {

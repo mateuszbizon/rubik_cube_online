@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import { Mic, Smile, Video, Wifi } from 'lucide-react'
 import { CardSpotlight } from '../ui/card-spotlight'
 

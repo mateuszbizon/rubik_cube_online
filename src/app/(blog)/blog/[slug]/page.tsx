@@ -1,4 +1,4 @@
-import Container from '@/components/Container'
+import Container from '@/components/ui/container'
 import { client } from '@/sanity/lib/client'
 import { urlFor } from '@/sanity/lib/image'
 import { GET_SINGLE_BLOG_QUERY } from '@/sanity/lib/queries'

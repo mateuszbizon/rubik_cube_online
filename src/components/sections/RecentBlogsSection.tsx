@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import RecentBlogs from '../blog/RecentBlogs'
 import GridLoading from '../ui/grid-loading'
 

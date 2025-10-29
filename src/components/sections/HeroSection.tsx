@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Container'
+import Container from '../ui/container'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import AnimatedContent from '../animations/AnimatedContent/AnimatedContent'
