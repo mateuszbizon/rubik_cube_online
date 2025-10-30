@@ -25,12 +25,12 @@ function HeroSection() {
                     </AnimatedContent>
                     <FadeContent blur={true} delay={1500}>
                         <div className='flex gap-5 justify-center lg:justify-start flex-wrap'>
-                            <Button size={"lg"} className='text-lg' asChild>
+                            <Button size={"lg"} asChild>
                                 <Link href={"#lesson"}>
                                     Rozpocznij
                                 </Link>
                             </Button>
-                            <Button variant={"secondary-black"} size={"lg"} className='text-lg' asChild>
+                            <Button variant={"secondary-black"} size={"lg"} asChild>
                                 <Link href={"#reviews"}>
                                     Opinie
                                 </Link>

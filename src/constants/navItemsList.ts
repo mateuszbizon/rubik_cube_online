@@ -4,22 +4,27 @@ import { NavItem } from "@/types"
 export const NAV_ITEMS_LIST: NavItem[] = [
     {
         label: "O mnie",
-        href: "#about",
+        href: "/o-mnie",
         isLink: true
     },
     {
         label: "Lekcja",
-        href: "#lesson",
+        href: "/lekcja",
         isLink: true
     },
     {
         label: "Oferta",
-        href: "#offer",
+        href: "/oferta",
         isLink: true
     },
     {
         label: "Opinie",
-        href: "#reviews",
+        href: "/opinie",
+        isLink: true
+    },
+    {
+        label: "Kontakt",
+        href: "/kontakt",
         isLink: true
     },
     {
@@ -27,32 +32,4 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         href: "/blog",
         isLink: true
     },
-]
-
-export const BLOG_NAV_ITEMS_LIST: NavItem[] = [
-    {
-        label: "Główna",
-        href: "/",
-        isLink: true
-    },
-    {
-        label: "O mnie",
-        href: "/#about",
-        isLink: true
-    },
-    {
-        label: "Lekcja",
-        href: "/#lesson",
-        isLink: true
-    },
-    {
-        label: "Oferta",
-        href: "/#offer",
-        isLink: true
-    },
-    {
-        label: "Opinie",
-        href: "/#reviews",
-        isLink: true
-    }
 ]
