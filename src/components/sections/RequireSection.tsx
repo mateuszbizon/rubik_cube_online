@@ -8,12 +8,12 @@ function RequireSection() {
     <section className='py-section bg-foreground text-white'>
         <Container>
             <h2 className='heading2 text-center heading-margin-bottom'>Co jest potrzebne aby zacząć naukę kostki Rubika online?</h2>
-            <Container className='space-y-14 h-auto w-full max-w-[600px] px-0'>
+            <Container className='space-y-14 max-w-[700px] px-0'>
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                     <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Wifi className='size-6' />
                     </div>
-                    <h3 className='bigger-text relative'>Połączenie inernetowe</h3>
+                    <h3 className='bigger-text relative'>Połączenie internetowe</h3>
                     <p className='md:text-lg relative'>Aby rozpocząć naukę układania kostki Rubika online, potrzebne jest działające połączenie z internetem. Najlepiej, jeśli jest ono stabilne i w miarę szybkie – wtedy lekcje online przebiegają bez zakłóceń i można bez problemu rozmawiać oraz widzieć ruchy na kostce.</p>
                 </CardSpotlight>
 
@@ -30,7 +30,7 @@ function RequireSection() {
                         <Mic className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Mikrofon</h3>
-                    <p className='md:text-lg relative'>Na platformie na której odbywają się zajęcia jest dostępny czat, jednak podczas nauki układania kostki Rubika online, znacznie lepiej sprawdza się bezpośrednia rozmowa głosowa. Dlatego warto mieć sprawny mikrofon, by móc zadawać pytania i szybciej zrozumieć wskazówki.</p>
+                    <p className='md:text-lg relative'>Na platformach, na których odbywają się zajęcia, jest dostępny czat, jednak podczas nauki układania kostki Rubika online, znacznie lepiej sprawdza się bezpośrednia rozmowa głosowa. Dlatego warto mieć sprawny mikrofon, by móc zadawać pytania i szybciej zrozumieć wskazówki.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
