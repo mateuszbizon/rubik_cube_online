@@ -43,7 +43,7 @@ function NavMobile() {
                 ))}
             </ul>
             <Button asChild>
-                <Link href={"/darmowa-wycena"}>
+                <Link href={"/zaczynam-nauke"}>
                     Zaczynam naukę
                 </Link>
             </Button>

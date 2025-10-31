@@ -37,7 +37,7 @@ function Nav() {
 
                 <div className='hidden lg:block'>
                     <Button className='hidden lg:inline-flex' asChild>
-                        <Link href={"#start-lesson"}>
+                        <Link href={"/zaczynam-nauke"}>
                             Zaczynam naukę
                         </Link>
                     </Button>
