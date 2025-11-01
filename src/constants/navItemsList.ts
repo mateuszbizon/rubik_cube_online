@@ -23,8 +23,8 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         isLink: true
     },
     {
-        label: "Kontakt",
-        href: "/kontakt",
+        label: "Materiały",
+        href: "/materialy",
         isLink: true
     },
     {

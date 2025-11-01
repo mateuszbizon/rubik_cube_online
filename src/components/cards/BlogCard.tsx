@@ -12,7 +12,7 @@ type BlogCardProps = {
 function BlogCard({ blog }: BlogCardProps) {
   return (
     <Link href={`/blog/${blog.slug?.current}`} key={blog._id} target='_blank' title={`Blog: ${blog.title}`}>
-        <div className='bg-white rounded-2xl p-5 space-y-5 border border-gray/50'>
+        <div className='bg-white rounded-2xl p-5 space-y-5 border border-gray hover:border-black transition duration-300'>
             {blog.mainImage && (
                 <figure className='relative w-full aspect-video rounded-xl overflow-hidden'>
                     <Image src={urlFor(blog.mainImage).url()} alt={blog.mainImage.alt || ""} fill className='object-cover' />

@@ -5,7 +5,7 @@ import Container from '../ui/container'
 
 function RecentBlogsSection() {
   return (
-    <section className='py-section bg-background-light/50'>
+    <section className='py-section bg-white'>
         <Container>
             <h2 className='heading2 text-center text-foreground heading-margin-bottom'>Ostatnie wpisy na bloga</h2>
             <Suspense fallback={<GridLoading />}>
