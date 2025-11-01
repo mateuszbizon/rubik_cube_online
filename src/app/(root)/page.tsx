@@ -16,8 +16,8 @@ export default function Home() {
         <RequireSection />
         <QuoteSection />
         <ReviewsSection />
-        <RecentBlogsSection />
         <ContactSection />
+        <RecentBlogsSection />
     </>
   );
 }
