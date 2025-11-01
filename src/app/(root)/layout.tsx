@@ -1,17 +1,18 @@
+import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
-
 
 export default function RootLayout({
     children,
-  }: Readonly<{
+}: Readonly<{
     children: React.ReactNode;
-  }>) {
+}>) {
     return (
         <>
             <Nav />
             <main>
                 {children}
             </main>
+            <Footer />
         </>
     );
   }
