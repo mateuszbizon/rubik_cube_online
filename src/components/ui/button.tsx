@@ -14,7 +14,7 @@ const buttonVariants = cva(
         secondary: "bg-transparent border-2 border-white text-white hover:bg-white hover:text-black",
         "secondary-black": "bg-transparent border-2 border-black text-black hover:bg-black hover:text-white",
         icon: "bg-white text-black hover:bg-white/50",
-        "no-background": "bg-transparent text-foreground hover:text-black",
+        ghost: "bg-transparent text-foreground hover:text-black",
         link: "text-primary hover:text-primary2 border-none",
       },
       size: {

@@ -8,6 +8,7 @@ import ReviewCard from '../cards/ReviewCard'
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import Container from '../ui/container'
+import { SUPERPROF_URL } from '@/constants'
 
 function ReviewsSection() {
     const plugin = React.useRef(
@@ -15,7 +16,7 @@ function ReviewsSection() {
     )
 
   return (
-    <section id='reviews' className='py-section bg-gray/30 text-foreground'>
+    <section className='py-section bg-background'>
         <Container>
             <h2 className='heading2 heading-margin-bottom'>
                 Opinie moich uczniów
@@ -34,12 +35,12 @@ function ReviewsSection() {
                         <ReviewCard key={item.content} review={item} />
                     ))}
                 </CarouselContent>
-                <CarouselPrevious variant={"icon"} className='hidden lg:inline-flex' />
-                <CarouselNext variant={"icon"} className='hidden lg:inline-flex' />
+                <CarouselPrevious className='hidden lg:inline-flex' />
+                <CarouselNext className='hidden lg:inline-flex' />
             </Carousel>
             <div className='flex justify-center'>
                 <Button size={"lg"} asChild>
-                    <Link href={"https://www.superprof.pl/speedcuber-letnim-doswiadczeniem-ukladajacy-kostke-rubika-srednio-ponizej-sekund-udzielam-prywatnych-lekcji-jak.html"} target='_blank'>
+                    <Link href={SUPERPROF_URL} target='_blank'>
                         Wszystkie opinie
                     </Link>
                 </Button>
