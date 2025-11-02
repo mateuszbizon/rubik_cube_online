@@ -88,7 +88,7 @@
     }
 
     .radial-background {
-        background: radial-gradient(circle,rgba(61, 197, 255, 1) 20%, rgba(215, 243, 255, 1) 80%);
+        background: radial-gradient(circle, var(--background-light) 70%, var(--border) 100%);
     }
 }
 

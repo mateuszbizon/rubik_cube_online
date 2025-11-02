@@ -9,7 +9,7 @@ function ContactSection() {
   return (
     <section className='py-section'>
         <Container>
-            <div className='rounded-4xl px-5 py-10 md:p-10 radial-background space-y-10 border'>
+            <div className='rounded-4xl px-5 py-10 md:px-10 md:py-30 radial-background space-y-10 border'>
                 <h2 className='heading2 text-center heading-margin-bottom'>
                     Rozpocznijmy naukę. Gotowi?
                 </h2>
