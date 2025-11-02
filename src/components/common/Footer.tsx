@@ -11,7 +11,7 @@ import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
 function Footer() {
   return (
     <footer className='pt-section pb-7 bg-border/80'>
-        <Container className='max-w-[1400px]'>
+        <Container>
             <div className='grid md:grid-cols-[repeat(auto-fit,_280px)] gap-10 md:gap-20'>
                 <div className='space-y-4 text-center md:text-left'>
                     <figure className='relative size-20 mx-auto md:mx-0'>
