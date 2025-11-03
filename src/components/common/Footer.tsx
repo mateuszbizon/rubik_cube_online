@@ -49,6 +49,13 @@ function Footer() {
                                     </li>
                                 )
                             })}
+                            <li>
+                                <Button className='text-foreground hover:text-foreground/50' size={"link"} variant={"link"} asChild>
+                                    <Link href={"/zaczynam-nauke"}>
+                                        Zaczynam naukę
+                                    </Link>
+                                </Button>
+                            </li>
                         </ul>
                     </nav>
                 </div>
