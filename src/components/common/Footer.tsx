@@ -19,7 +19,7 @@ function Footer() {
                     </figure>
                     <p className='md:text-lg'>
                         <em>
-                            Naucz się układać legendarną łamigłówkę logiczną jaką jest kostka Rubika w przyjazny i zrozumiały sposób.
+                            Nauka układania kostki Rubika w prosty i przyjemny sposób. Zacznij swoją przygodę z kostką już dziś!
                         </em>
                     </p>
                 </div>
