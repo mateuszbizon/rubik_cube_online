@@ -72,6 +72,10 @@
         @apply mb-10 md:mb-16
     }
 
+    .single-offer-card {
+        @apply bg-white rounded-2xl p-5 flex flex-col justify-center
+    }
+
     .link {
         @apply text-primary hover:text-primary2 transition-colors duration-300
     }

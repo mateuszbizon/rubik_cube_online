@@ -19,3 +19,13 @@ export type NavItem = {
     menu: NavLink[];
     href?: string;
 })
+
+export type SingleOffer = {
+    firstText: string;
+    secondText: string;
+    thirdText: string;
+    fourText: string;
+    fiveText?: string;
+    sixText?: string;
+    image: Image;
+}
