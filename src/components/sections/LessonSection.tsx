@@ -56,7 +56,7 @@ function LessonSection() {
 
                 <div className='grow little-bigger-text space-y-5 text-pretty'>
                     <p>
-                        Zajęcia odbywają online się za pomocą aplikacji WhatsApp lub Messenger. Wybór aplikacji zależy od preferencji ucznia. Obie aplikacje umożliwiają łatwe nawiązywanie połączeń wideo co jest kluczowe podczas nauki układania kostki Rubika. Wcześniej korzystałem za pomocą platformy Superprof. Jest też opcja spotkania za pomocą właśnie tej platformy.{" "}
+                        Kurs kostki Rubika odbywa się online za pomocą aplikacji WhatsApp lub Messenger. Wybór aplikacji zależy od preferencji ucznia. Obie aplikacje umożliwiają łatwe nawiązywanie połączeń wideo co jest kluczowe podczas kursu kostki Rubika. Wcześniej korzystałem za pomocą platformy Superprof. Jest też opcja spotkania za pomocą właśnie tej platformy.{" "}
                         <Button variant={"link"} size={"link"} style={{ fontSize: "inherit" }} asChild>
                             <Link href={SUPERPROF_URL} target='_blank' title='Superprof'>
                                 Link do profilu na Superprof

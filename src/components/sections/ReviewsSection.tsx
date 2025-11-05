@@ -18,8 +18,8 @@ function ReviewsSection() {
   return (
     <section className='py-section bg-background'>
         <Container>
-            <h2 className='heading2 heading-margin-bottom'>
-                Opinie moich uczniów
+            <h2 className='heading2 heading-margin-bottom text-center'>
+                Opinie moich uczniów o kursie kostki Rubika
             </h2>
             <Carousel
                 opts={{

@@ -15,7 +15,7 @@ function HeroSection() {
                 <div className='h-full flex flex-col justify-center gap-8 text-center lg:text-left'>
                     <AnimatedContent reverse={true} direction="horizontal">
                         <h1 className='heading1'>
-                            Nauka kostki Rubika online
+                            Kurs Kostki Rubika
                         </h1>
                     </AnimatedContent>
                     <AnimatedContent delay={500}>

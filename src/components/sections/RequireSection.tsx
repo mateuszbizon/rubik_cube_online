@@ -7,14 +7,14 @@ function RequireSection() {
   return (
     <section className='py-section bg-foreground text-white'>
         <Container>
-            <h2 className='heading2 text-center heading-margin-bottom'>Co jest potrzebne aby zacząć naukę kostki Rubika online?</h2>
+            <h2 className='heading2 text-center heading-margin-bottom'>Co jest potrzebne, aby rozpocząć kurs kostki Rubika online?</h2>
             <Container className='space-y-14 max-w-[700px] px-0'>
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                     <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                         <Wifi className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Połączenie internetowe</h3>
-                    <p className='md:text-lg relative'>Aby rozpocząć naukę układania kostki Rubika online, potrzebne jest działające połączenie z internetem. Najlepiej, jeśli jest ono stabilne i w miarę szybkie – wtedy lekcje online przebiegają bez zakłóceń i można bez problemu rozmawiać oraz widzieć ruchy na kostce.</p>
+                    <p className='md:text-lg relative'>Aby rozpocząć kurs kostki Rubika online, wystarczy stabilne połączenie z internetem. Im lepsza jakość połączenia, tym płynniej przebiegają lekcje – bez opóźnień, z dobrą widocznością i swobodną rozmową. Dzięki temu nauka staje się przyjemniejsza i bardziej efektywna.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -22,7 +22,7 @@ function RequireSection() {
                         <Video className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Kamera</h3>
-                    <p className='md:text-lg relative'>Podczas lekcji układania kostki Rubika online, bardzo pomocne jest, gdy mogę widzieć, jak uczeń układa kostkę. Dzięki temu łatwiej zauważyć błędy i skuteczniej przekazać wskazówki. Nauka kostki Rubika online staje się wtedy bardziej efektywna i przyjemna.</p>
+                    <p className='md:text-lg relative'>Podczas kursu układania kostki Rubika online bardzo ważne jest, żebym mógł widzieć, jak uczeń układa kostkę. Wtedy łatwiej wskazać błędy i zaproponować konkretne poprawki. Dzięki temu cały kurs kostki Rubika przebiega sprawniej, a postępy widać już po kilku zajęciach.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -30,7 +30,7 @@ function RequireSection() {
                         <Mic className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Mikrofon</h3>
-                    <p className='md:text-lg relative'>Na platformach, na których odbywają się zajęcia, jest dostępny czat, jednak podczas nauki układania kostki Rubika online, znacznie lepiej sprawdza się bezpośrednia rozmowa głosowa. Dlatego warto mieć sprawny mikrofon, by móc zadawać pytania i szybciej zrozumieć wskazówki.</p>
+                    <p className='md:text-lg relative'>Na platformach, gdzie prowadzę kurs kostki Rubika, jest dostępny czat, ale najlepiej sprawdza się rozmowa głosowa. Warto mieć sprawny mikrofon – dzięki temu uczeń może od razu zadawać pytania i lepiej zrozumieć wskazówki. To duże ułatwienie w nauce.</p>
                 </CardSpotlight>
 
                 <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
@@ -38,7 +38,7 @@ function RequireSection() {
                         <Smile className='size-6' />
                     </div>
                     <h3 className='bigger-text relative'>Pozytywne nastawienie :)</h3>
-                    <p className='md:text-lg relative'>Podczas nauki kostki Rubika online, dobry humor i pozytywna energia naprawdę robią różnicę! Zajęcia przebiegają wtedy w miłej atmosferze, a uczniowie uczą się szybciej i z większą przyjemnością. Uśmiech na twarzy i pozytywne nastawienie to połowa sukcesu ;)</p>
+                    <p className='md:text-lg relative'>Podczas kursu kostki Rubika online pozytywne nastawienie naprawdę ma znaczenie. Dobra energia i uśmiech sprawiają, że nauka idzie szybciej, a każda nowa umiejętność daje satysfakcję. W końcu to ma być nie tylko nauka, ale też zabawa i relaks.</p>
                 </CardSpotlight>
             </Container>
         </Container>

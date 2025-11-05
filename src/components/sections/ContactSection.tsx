@@ -11,7 +11,7 @@ function ContactSection() {
         <Container>
             <div className='rounded-4xl px-5 py-10 md:px-10 md:py-30 radial-background space-y-10 border'>
                 <h2 className='heading2 text-center heading-margin-bottom'>
-                    Rozpocznijmy naukę. Gotowi?
+                    Rozpocznijmy kurs kostki Rubika. Gotowi?
                 </h2>
                 <p className='bigger-text text-center max-w-2xl mx-auto'>
                     Napisz do mnie wiadomość lub zadzwoń, aby umówić się na <strong>pierwszą darmową lekcję</strong> lub dowiedzieć się więcej o ofercie.

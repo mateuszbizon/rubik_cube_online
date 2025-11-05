@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Nauka Kostki Rubika Online",
+  title: "Kurs Kostki Rubika",
   description: "Naucz się układać kostkę Rubika i inne łamigłówki logiczne zdalnie lub starcjonarnie w prosty i nowoczesny sposób zrozumiały dla każdego, bez ciężkich schematów.",
 };
 

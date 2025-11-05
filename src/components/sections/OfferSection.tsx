@@ -8,15 +8,15 @@ function OfferSection() {
     <section className='bg-background-dark py-section'>
         <Container>
             <h2 className='heading2 text-center heading-margin-bottom'>
-                Co mogę zaoferować
+                Co mogę zaoferować w ramach kursu kostki Rubika
             </h2>
             <div className='grid md:grid-cols-2 gap-10 text-center mb-20'>
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Nauka kostki Rubika od zera
+                        Kurs kostki Rubika dla początkujących
                     </h3>
                     <p className='little-bigger-text'>
-                        Naucze Cię układać kostkę Rubika od samych podstaw. Używam do tego sposobu opartego na historyjkach, w łatwy i nowoczesny sposób zrozumiały dla każdego, bez ciężkich schematów.
+                        Nauczę Cię układać kostkę Rubika od samych podstaw. Używam do tego sposobu opartego na historyjkach, w łatwy i nowoczesny sposób zrozumiały dla każdego, bez ciężkich schematów.
                     </p>
                     <div className='flex justify-center mt-auto'>
                         <Button asChild>
@@ -29,23 +29,7 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Nauka kostki Rubika od konkretnego etapu
-                    </h3>
-                    <p className='little-bigger-text'>
-                        Pomogę Ci poprawić swoje czasy, nieważne czy chcesz nauczyć się metody zaawansowanej czy polepszyć metodę podstawową. Zrobię wszystko abyś układał szybciej niezależnie od tego na co jesteś gotowy :{")"}
-                    </p>
-                    <div className='flex justify-center mt-auto'>
-                        <Button asChild>
-                            <Link href={"/oferta/nauka-od-konkretnego-etapu"}>
-                                Dowiedz się więcej
-                            </Link>
-                        </Button>
-                    </div>
-                </div>
-
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
-                    <h3 className='heading3'>
-                        Nauka metody zaawansowanej
+                        Kurs metody Fridrich
                     </h3>
                     <p className='little-bigger-text'>
                         Nauczę Cię metody Fridrich lub też zwanej CFOP, która jest najpopularniejszą metodą zaawansowaną na świecie. Dzięki niej będziesz mógł układać kostkę Rubika poniżej 30 sekund, a z czasem jeszcze nawet szybciej!
@@ -61,14 +45,30 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Nauka kostki Rubika dla dzieci
+                        Kurs kostki Rubika dla dzieci
                     </h3>
                     <p className='little-bigger-text'>
                         Posiadam doświadczenie w nauce dzieci w różnym wieku. Potrafię dostosować sposób nauki do wieku i umiejętności dziecka, aby nauka była dla niego przyjemnością i zabawą.
                     </p>
                     <div className='flex justify-center mt-auto'>
                         <Button asChild>
-                            <Link href={"/oferta/nauka-dla-dzieci"}>
+                            <Link href={"/oferta/kurs-dla-dzieci"}>
+                                Dowiedz się więcej
+                            </Link>
+                        </Button>
+                    </div>
+                </div>
+
+                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                    <h3 className='heading3'>
+                        Kurs speedcubingu
+                    </h3>
+                    <p className='little-bigger-text'>
+                        Nauczę Cię technik i strategii speedcubingu, abyś mógł układać kostkę Rubika jak najszybciej. Poznasz zaawansowane algorytmy, optymalizację ruchów i strategie treningowe.
+                    </p>
+                    <div className='flex justify-center mt-auto'>
+                        <Button asChild>
+                            <Link href={"/oferta/kurs-speedcubingu"}>
                                 Dowiedz się więcej
                             </Link>
                         </Button>
@@ -81,7 +81,7 @@ function OfferSection() {
             <div className='grid md:grid-cols-2 gap-10 text-center'>
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Kostka 2x2
+                        Kurs kostki 2x2
                     </h3>
                     <p className='little-bigger-text'>
                         Nauczę Cię układać kostkę 2x2, która jest idealna dla początkujących. Poznasz prostą metodę, która pozwoli Ci szybko i efektywnie układać tę kostkę.
@@ -97,7 +97,7 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Kostka 4x4
+                        Kurs kostki 4x4
                     </h3>
                     <p className='little-bigger-text'>
                         Nauczę Cię układać kostkę 4x4, która jest bardziej zaawansowaną wersją klasycznej kostki Rubika. Poznasz metody radzenia sobie z parowaniem krawędzi i centrami, aby skutecznie układać tę kostkę.
@@ -113,7 +113,7 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Pyraminx
+                        Kurs Pyraminx
                     </h3>
                     <p className='little-bigger-text'>
                         Nauczę Cię układać Pyraminx, czyli piramidalną łamigłówkę. Poznasz metody i techniki specyficzne dla tej kostki, aby szybko i efektywnie ją układać.
@@ -129,7 +129,7 @@ function OfferSection() {
 
                 <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
                     <h3 className='heading3'>
-                        Skewb
+                        Kurs Skewb
                     </h3>
                     <p className='little-bigger-text'>
                         Nauczę Cię układać Skewb, czyli kostkę o nietypowym kształcie. Poznasz metody i techniki specyficzne dla tej kostki, aby szybko i efektywnie ją układać.
@@ -146,7 +146,7 @@ function OfferSection() {
             <div className='flex justify-center flex-wrap gap-5 sm:gap-10 mt-12'>
                 <Button size={"lg"} asChild>
                     <Link href={"/zaczynam-nauke"}>
-                        Zaczynam naukę
+                        Zaczynam kurs
                     </Link>
                 </Button>
                 <Button variant={"secondary-black"} size={"lg"} asChild>
