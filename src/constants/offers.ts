@@ -20,3 +20,13 @@ export const ADVANCED_METHOD_OFFER: SingleOffer = {
     sixText: "Już po kilku lekcjach zauważysz, że Twój czas układania wyraźnie się poprawia.",
     image: HERO_IMG
 }
+
+export const KIDS_METHOD_OFFER: SingleOffer = {
+    firstText: "Kurs kostki Rubika dla dzieci wprowadza najmłodszych w świat logicznego myślenia i cierpliwości.",
+    secondText: "Lekcje są prowadzone w formie zabawy, dzięki czemu dzieci uczą się z uśmiechem.",
+    thirdText: "Tempo zajęć jest dopasowane do wieku i poziomu dziecka.",
+    fourText: "Kurs odbywa się online – wystarczy komputer, internet i ulubiona kostka.",
+    fiveText: "Dzieci uczą się podstaw układania oraz prostych wzorów, które wzmacniają pamięć i koncentrację.",
+    sixText: "To świetny sposób na rozwijanie logicznego myślenia i kreatywności.",
+    image: HERO_IMG
+}
