@@ -10,13 +10,11 @@ type SingleOfferSectionProps = {
 }
 
 function SingleOfferSection({ title = "Metoda podstawowa", offer = BASIC_METHOD_OFFER }: SingleOfferSectionProps) {
-    const isExtraText = offer.fiveText || offer.sixText ? true : false
-
   return (
     <section className='py-section bg-background-dark'>
         <Container>
-            <h2 className='heading2 text-center heading-margin-bottom'>{title}</h2>
-            <div className={`grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 lg:h-[600px] gap-x-5 gap-y-10 little-bigger-text text-center font-medium`}>
+            <h2 className='heading3 text-center heading-margin-bottom'>{title}</h2>
+            <div className={`grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 lg:h-[600px] gap-x-5 gap-y-10 md:text-lg text-center font-medium`}>
                 <div className='single-offer-card lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2'>
                     <p>{offer.firstText}</p>
                 </div>

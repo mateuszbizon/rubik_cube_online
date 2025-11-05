@@ -5,8 +5,8 @@ import React from 'react'
 function BasicMethodOfferPage() {
   return (
     <>
-        <SubPageHero title='Metoda podstawowa' />
-        <SingleOfferSection title='Metoda podstawowa' />
+        <SubPageHero title='Kurs kostki Rubika dla początkujących' />
+        <SingleOfferSection title='Od pierwszych ruchów do pełnego ułożenia. Naucz się układać kostkę Rubika krok po kroku' />
     </>
   )
 }
