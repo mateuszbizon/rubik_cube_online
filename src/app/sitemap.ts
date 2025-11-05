@@ -51,6 +51,46 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/oferta/kurs-dla-dzieci`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/kurs-kostki-2x2`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/kurs-kostki-4x4`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/kurs-pyraminx`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/kurs-skewb`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/kurs-speedcubingu`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/metoda-fridrich`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/oferta/metoda-podstawowa`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
     // {
     //   url: `${baseUrl}/materialy`,
     //   lastModified: new Date(),
