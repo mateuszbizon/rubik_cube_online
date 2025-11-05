@@ -40,3 +40,13 @@ export const SPPED_CUBE_OFFER: SingleOffer = {
     sixText: "Z każdym treningiem będziesz coraz bliżej swojego osobistego rekordu.",
     image: HERO_IMG
 }
+
+export const CUBE_2X2_OFFER: SingleOffer = {
+    firstText: "Kurs kostki 2x2 to doskonały wybór, jeśli chcesz zacząć przygodę z prostszą wersją klasycznej kostki.",
+    secondText: "Poznasz szybkie metody i proste algorytmy do opanowania układania w krótkim czasie.",
+    thirdText: "Lekcje online prowadzone są w przystępny i zrozumiały sposób.",
+    fourText: "Kostka 2x2 to świetne wprowadzenie do nauki logicznego myślenia i planowania ruchów.",
+    fiveText: "Zrozumiesz podstawowe zasady, które później pomogą Ci przy kostkach 3x3 i większych.",
+    sixText: "Już po kilku zajęciach będziesz w stanie układać kostkę 2x2 bez żadnych podpowiedzi.",
+    image: HERO_IMG
+}
