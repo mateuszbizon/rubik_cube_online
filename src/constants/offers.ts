@@ -50,3 +50,13 @@ export const CUBE_2X2_OFFER: SingleOffer = {
     sixText: "Już po kilku zajęciach będziesz w stanie układać kostkę 2x2 bez żadnych podpowiedzi.",
     image: HERO_IMG
 }
+
+export const CUBE_4X4_OFFER: SingleOffer = {
+    firstText: "Kurs kostki 4x4 to wyzwanie dla osób, które znają już podstawy i chcą iść dalej.",
+    secondText: "Nauczysz się rozwiązywać problem tzw. parzystości i innych unikalnych sytuacji tej kostki.",
+    thirdText: "Poznasz skuteczne algorytmy, które ułatwią przejście z kostki 3x3 na 4x4.",
+    fourText: "Lekcje odbywają się online, więc możesz ćwiczyć w dowolnym momencie.",
+    fiveText: "Po kursie 4x4 zrozumiesz, jak myślą doświadczeni speedcuberzy.",
+    sixText: "To idealny krok, jeśli chcesz poszerzyć swoje umiejętności i zyskać nową satysfakcję z układania.",
+    image: HERO_IMG
+}
