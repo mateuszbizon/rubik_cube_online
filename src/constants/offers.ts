@@ -60,3 +60,13 @@ export const CUBE_4X4_OFFER: SingleOffer = {
     sixText: "To idealny krok, jeśli chcesz poszerzyć swoje umiejętności i zyskać nową satysfakcję z układania.",
     image: HERO_IMG
 }
+
+export const PYRAMINX_OFFER: SingleOffer = {
+    firstText: "Kurs Pyraminx to zajęcia, które pokażą Ci, że ta kostka wcale nie jest tak trudna, jak wygląda.",
+    secondText: "Poznasz prosty schemat, który pozwala ją ułożyć w kilkanaście ruchów.",
+    thirdText: "Nauczysz się, jak rozumieć jej specyficzne obroty i warstwy.",
+    fourText: "Lekcje są prowadzone online w praktyczny, zrozumiały sposób.",
+    fiveText: "To świetny dodatek dla każdego, kto już zna kostkę 3x3 i chce spróbować czegoś nowego",
+    sixText: "Kurs Pyraminx to połączenie zabawy, logiki i przyjemnego wyzwania.",
+    image: HERO_IMG
+}
