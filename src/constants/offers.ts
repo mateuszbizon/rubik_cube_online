@@ -66,7 +66,17 @@ export const PYRAMINX_OFFER: SingleOffer = {
     secondText: "Poznasz prosty schemat, który pozwala ją ułożyć w kilkanaście ruchów.",
     thirdText: "Nauczysz się, jak rozumieć jej specyficzne obroty i warstwy.",
     fourText: "Lekcje są prowadzone online w praktyczny, zrozumiały sposób.",
-    fiveText: "To świetny dodatek dla każdego, kto już zna kostkę 3x3 i chce spróbować czegoś nowego",
+    fiveText: "To świetny dodatek dla każdego, kto już zna kostkę 3x3 i chce spróbować czegoś nowego.",
     sixText: "Kurs Pyraminx to połączenie zabawy, logiki i przyjemnego wyzwania.",
+    image: HERO_IMG
+}
+
+export const SKEWB_OFFER: SingleOffer = {
+    firstText: "Kurs Skewb to szansa, by poznać kostkę o zupełnie innej mechanice niż klasyczna 3x3.",
+    secondText: "Nauczysz się jej unikalnych ruchów i prostych algorytmów do szybkiego układania.",
+    thirdText: "Zrozumiesz, jak analizować rotacje i planować każdy ruch.",
+    fourText: "Zajęcia online pozwalają ćwiczyć w wygodnym tempie i miejscu.",
+    fiveText: "Kurs Skewb świetnie rozwija wyobraźnię przestrzenną i myślenie strategiczne.",
+    sixText: "Po kilku lekcjach zobaczysz, że Skewb potrafi być równie wciągający jak klasyczna kostka Rubika.",
     image: HERO_IMG
 }

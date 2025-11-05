@@ -136,7 +136,7 @@ function OfferSection() {
                     </p>
                     <div className='flex justify-center mt-auto'>
                         <Button asChild>
-                            <Link href={"/oferta/skewb"}>
+                            <Link href={"/oferta/kurs-skewb"}>
                                 Dowiedz się więcej
                             </Link>
                         </Button>
