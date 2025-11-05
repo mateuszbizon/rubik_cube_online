@@ -5,13 +5,17 @@ import { Phone } from 'lucide-react'
 import Container from '../ui/container'
 import { PHONE_NUMBER } from '@/constants'
 
-function ContactSection() {
+type ContactSectionProps = {
+    title?: string
+}
+
+function ContactSection({ title = "Rozpocznijmy kurs kostki Rubika. Gotowi?" }: ContactSectionProps) {
   return (
     <section className='py-section'>
         <Container>
             <div className='rounded-4xl px-5 py-10 md:px-10 md:py-30 radial-background space-y-10 border'>
                 <h2 className='heading2 text-center heading-margin-bottom'>
-                    Rozpocznijmy kurs kostki Rubika. Gotowi?
+                    {title}
                 </h2>
                 <p className='bigger-text text-center max-w-2xl mx-auto'>
                     Napisz do mnie wiadomość lub zadzwoń, aby umówić się na <strong>pierwszą darmową lekcję</strong> lub dowiedzieć się więcej o ofercie.
