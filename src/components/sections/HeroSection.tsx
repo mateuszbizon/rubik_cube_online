@@ -23,7 +23,7 @@ function HeroSection() {
                             Naucz się układać legendarną łamigłówkę logiczną jaką jest kostka Rubika w przyjazny i zrozumiały sposób.
                         </p>
                     </AnimatedContent>
-                    <FadeContent blur={true} delay={1500}>
+                    <FadeContent blur={true} delay={1200}>
                         <div className='flex gap-5 justify-center lg:justify-start flex-wrap'>
                             <Button size={"lg"} asChild>
                                 <Link href={"/lekcja"}>
@@ -41,7 +41,7 @@ function HeroSection() {
 
                 <div className='flex flex-col'>
                     <div className='mt-auto'>
-                        <AnimatedContent direction='horizontal' delay={1500}>
+                        <AnimatedContent direction='horizontal' delay={1200}>
                             <figure className='relative w-full aspect-square max-w-[500px] lg:max-w-[600px] mx-auto'>
                                 <Image src={HERO_IMG.src} alt={HERO_IMG.alt} fill />
                             </figure>
