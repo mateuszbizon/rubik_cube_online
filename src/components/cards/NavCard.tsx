@@ -13,7 +13,7 @@ type NavCardProps = {
 
 function NavCard({ item }: NavCardProps) {
     const pathName = usePathname()
-    const isActive = pathName === item.href
+    const isActive = pathName.includes(item.href!)
 
   return (
     <>
