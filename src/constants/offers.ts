@@ -30,3 +30,13 @@ export const KIDS_METHOD_OFFER: SingleOffer = {
     sixText: "To świetny sposób na rozwijanie logicznego myślenia i kreatywności.",
     image: HERO_IMG
 }
+
+export const SPPED_CUBE_OFFER: SingleOffer = {
+    firstText: "Kurs speedcubingu to zajęcia dla tych, którzy chcą bić własne rekordy.",
+    secondText: "Poznasz zaawansowane techniki pozwalające układać kostkę Rubika w kilkanaście sekund.",
+    thirdText: "Nauczysz się analizować swoje czasy i poprawiać efektywność ruchów.",
+    fourText: "Skupimy się na optymalizacji palców, rotacjach i płynności ułożeń.",
+    fiveText: "Kurs prowadzony jest online – możesz trenować z domu jak profesjonalny speedcuber.",
+    sixText: "Z każdym treningiem będziesz coraz bliżej swojego osobistego rekordu.",
+    image: HERO_IMG
+}
