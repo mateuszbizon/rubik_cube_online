@@ -10,3 +10,13 @@ export const BASIC_METHOD_OFFER: SingleOffer = {
     sixText: "Po kilku spotkaniach będziesz potrafić samodzielnie ułożyć kostkę Rubika od początku do końca.",
     image: HERO_IMG
 }
+
+export const ADVANCED_METHOD_OFFER: SingleOffer = {
+    firstText: "Kurs metody Fridrich to idealny wybór, jeśli chcesz układać kostkę Rubika szybciej i bardziej profesjonalnie.",
+    secondText: "Poznasz system F2L, OLL i PLL – kluczowe etapy używane przez najlepszych speedcuberów.",
+    thirdText: "Krok po kroku przejdziemy przez algorytmy, które pozwalają skrócić liczbę ruchów.",
+    fourText: "Zrozumiesz nie tylko „jak”, ale też „dlaczego” dana metoda działa, co pomoże Ci szybciej zapamiętywać sekwencje.",
+    fiveText: "Kurs odbywa się online, więc możesz ćwiczyć we własnym tempie.",
+    sixText: "Już po kilku lekcjach zauważysz, że Twój czas układania wyraźnie się poprawia.",
+    image: HERO_IMG
+}

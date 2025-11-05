@@ -36,7 +36,7 @@ function OfferSection() {
                     </p>
                     <div className='flex justify-center mt-auto'>
                         <Button asChild>
-                            <Link href={"/oferta/metoda-zaawansowana"}>
+                            <Link href={"/oferta/metoda-fridrich"}>
                                 Dowiedz się więcej
                             </Link>
                         </Button>
