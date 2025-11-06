@@ -45,6 +45,10 @@
     body {
         @apply bg-background-light text-foreground
     }
+
+    section {
+        @apply overflow-clip
+    }
 }
 
 @layer components {
