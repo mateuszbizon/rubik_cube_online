@@ -11,7 +11,7 @@ function OfferSection() {
                 Co mogę zaoferować w ramach kursu kostki Rubika
             </h2>
             <div className='grid md:grid-cols-2 gap-10 text-center mb-20'>
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs kostki Rubika dla początkujących
                     </h3>
@@ -27,7 +27,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs metody Fridrich
                     </h3>
@@ -43,7 +43,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs kostki Rubika dla dzieci
                     </h3>
@@ -59,7 +59,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs speedcubingu
                     </h3>
@@ -79,7 +79,7 @@ function OfferSection() {
                 Oprócz standardowej kostki Rubika, uczę także innych łamigłówek
             </h2>
             <div className='grid md:grid-cols-2 gap-10 text-center'>
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs kostki 2x2
                     </h3>
@@ -95,7 +95,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs kostki 4x4
                     </h3>
@@ -111,7 +111,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs Pyraminx
                     </h3>
@@ -127,7 +127,7 @@ function OfferSection() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-2xl p-10 flex flex-col gap-5'>
+                <div className='offer-card'>
                     <h3 className='heading3'>
                         Kurs Skewb
                     </h3>
