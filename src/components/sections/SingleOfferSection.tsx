@@ -28,8 +28,8 @@ function SingleOfferSection({ title = "Metoda podstawowa", offer = BASIC_METHOD_
                             <p>{offer.fiveText}</p>
                         </div>
                     )}
-                    <figure className={`relative bg-black rounded-2xl w-full aspect-square max-h-[300px] lg:aspect-auto lg:max-h-none lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-4`}>
-                        <Image src={offer.image.src} alt={offer.image.alt} fill className='object-contain' />
+                    <figure className={`relative rounded-2xl w-full aspect-square max-h-[400px] lg:aspect-auto lg:max-h-none lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-4 overflow-hidden`}>
+                        <Image src={offer.image.src} alt={offer.image.alt} fill className='object-cover' />
                     </figure>
                     {offer.sixText && (
                         <div className='single-offer-card lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3'>
