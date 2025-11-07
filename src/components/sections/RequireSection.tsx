@@ -14,7 +14,7 @@ function RequireSection() {
                 </h2>
             </AnimatedContent>
             <Container className='space-y-14 max-w-[700px] px-0'>
-                <AnimatedContent >
+                <AnimatedContent>
                     <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                         <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                             <Wifi className='size-6' />
@@ -24,7 +24,7 @@ function RequireSection() {
                     </CardSpotlight>
                 </AnimatedContent>
 
-                <AnimatedContent >
+                <AnimatedContent>
                     <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                         <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                             <Video className='size-6' />
@@ -34,7 +34,7 @@ function RequireSection() {
                     </CardSpotlight>
                 </AnimatedContent>
 
-                <AnimatedContent >
+                <AnimatedContent>
                     <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                         <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                             <Mic className='size-6' />
@@ -44,7 +44,7 @@ function RequireSection() {
                     </CardSpotlight>
                 </AnimatedContent>
 
-                <AnimatedContent >
+                <AnimatedContent>
                     <CardSpotlight className='relative rounded-2xl bg-black p-7 space-y-3'>
                         <div className='absolute -top-6 left-10 rounded-full bg-foreground size-12 flex justify-center items-center'>
                             <Smile className='size-6' />
