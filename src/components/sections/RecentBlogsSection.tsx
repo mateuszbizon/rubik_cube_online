@@ -1,13 +1,13 @@
 import React, { Suspense } from 'react'
-import Container from '../Container'
 import RecentBlogs from '../blog/RecentBlogs'
 import GridLoading from '../ui/grid-loading'
+import Container from '../ui/container'
 
 function RecentBlogsSection() {
   return (
-    <section className='py-section bg-light/50'>
+    <section className='py-section bg-white'>
         <Container>
-            <h2 className='heading2 text-center text-dark heading-margin-bottom'>Ostatnie wpisy na bloga</h2>
+            <h2 className='heading2 text-center text-foreground heading-margin-bottom'>Ostatnie wpisy na bloga</h2>
             <Suspense fallback={<GridLoading />}>
                 <RecentBlogs />
             </Suspense>

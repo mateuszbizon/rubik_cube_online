@@ -1,14 +1,18 @@
-import RootHeader from "@/components/RootHeader";
+import Footer from "@/components/common/Footer";
+import Nav from "@/components/common/Nav";
 
 export default function RootLayout({
     children,
-  }: Readonly<{
+}: Readonly<{
     children: React.ReactNode;
-  }>) {
+}>) {
     return (
-        <main>
-            <RootHeader />
-            {children}
-        </main>
+        <>
+            <Nav />
+            <main>
+                {children}
+            </main>
+            <Footer />
+        </>
     );
   }

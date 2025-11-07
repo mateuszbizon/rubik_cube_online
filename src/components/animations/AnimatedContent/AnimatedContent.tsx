@@ -1,9 +1,10 @@
 "use client"
 
-import { useRef, useEffect, useState, ReactNode } from "react";
+import { useRef, useEffect, useState, ReactNode, ComponentProps } from "react";
 import { useSpring, animated, SpringConfig } from "@react-spring/web";
+import { cn } from "@/lib/utils";
 
-interface AnimatedContentProps {
+type AnimatedContentProps = {
   children: ReactNode;
   distance?: number;
   direction?: "vertical" | "horizontal";
@@ -14,7 +15,7 @@ interface AnimatedContentProps {
   scale?: number;
   threshold?: number;
   delay?: number;
-}
+} & ComponentProps<"div">
 
 const AnimatedContent: React.FC<AnimatedContentProps> = ({
   children,
@@ -27,6 +28,8 @@ const AnimatedContent: React.FC<AnimatedContentProps> = ({
   scale = 1,
   threshold = 0.1,
   delay = 0,
+  className,
+  ...props
 }) => {
   const [inView, setInView] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
@@ -74,7 +77,7 @@ const AnimatedContent: React.FC<AnimatedContentProps> = ({
   });
 
   return (
-    <animated.div ref={ref} style={springProps}>
+    <animated.div ref={ref} style={springProps} className={cn('', className)} {...props}>
       {children}
     </animated.div>
   );

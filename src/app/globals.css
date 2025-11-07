@@ -9,28 +9,45 @@
   --orange: #E29E21; 
   --yellow: #F9F871;
   --purple: #9262B5;
-  --dark: #3C4856;
-  --light: #D7F3FF;
+  --foreground: #3C4856;
+  --background-light: #D7F3FF;
+  --background: #BDEBFF;
+  --background-dark: #A3E3FF;
+  --border: #3DC5FF;
   --gray: #A0ACBD;
+  --ring: #1982C4;
+  --section: 5rem;
+  --nav-height: 4.5rem;
 }
 
 @theme inline {
-  --font-montserrat: var(--font-montserrat);
   --color-primary: var(--primary);
   --color-primary2: var(--primary2);
-  --color-dark: var(--dark);
-  --color-light: var(--light);
+  --color-foreground: var(--foreground);
+  --color-background-light: var(--background-light);
+  --color-background: var(--background);
+  --color-background-dark: var(--background-dark);
+  --color-border: var(--border);
   --color-gray: var(--gray);
   --color-orange: var(--orange);
   --color-purple: var(--purple);
-  --spacing-root-header: 70px;
-  --spacing-section: 80px;
+  --color-ring: var(--ring);
+  --spacing-nav-height: var(--nav-height);
+  --spacing-section: var(--section);
   --animate-rotate: rotate 1s infinite steps(10)
 }
 
 @layer base {
-    html {
-        @apply scroll-smooth
+    * {
+        @apply border-border outline-ring/50;
+    }
+
+    body {
+        @apply bg-background-light text-foreground
+    }
+
+    section {
+        @apply overflow-clip
     }
 }
 
@@ -43,12 +60,28 @@
         @apply text-3xl md:text-4xl xl:text-5xl font-bold
     }
 
+    .heading3 {
+        @apply text-2xl md:text-3xl xl:text-4xl font-semibold
+    }
+
     .bigger-text {
-        @apply text-lg md:text-xl lg:text-2xl font-medium
+        @apply text-xl md:text-2xl font-medium
+    }
+
+    .little-bigger-text {
+        @apply text-lg md:text-xl
     }
 
     .heading-margin-bottom {
         @apply mb-10 md:mb-16
+    }
+
+    .offer-card {
+        @apply bg-white rounded-2xl p-10 flex flex-col gap-5 hover:bg-gradient-to-br hover:from-white hover:to-background-light/70 transition-colors duration-300 h-full
+    }
+
+    .single-offer-card {
+        @apply bg-white rounded-2xl p-5 flex flex-col justify-center
     }
 
     .link {
@@ -56,7 +89,7 @@
     }
 
     .nav-link {
-        @apply text-dark hover:text-primary transition-colors duration-300
+        @apply text-foreground hover:text-primary transition-colors duration-300
     }
 
     .header-background {
@@ -64,6 +97,10 @@
             farthest-corner circle at top right in oklab,
             var(--primary) 0%, var(--yellow) 100%
         );
+    }
+
+    .radial-background {
+        background: radial-gradient(circle, var(--background-light) 70%, var(--border) 100%);
     }
 }
 

@@ -12,15 +12,16 @@ const buttonVariants = cva(
         default:
           "bg-primary text-white hover:bg-primary2",
         secondary: "bg-transparent border-2 border-white text-white hover:bg-white hover:text-black",
-        "secondary-black": "bg-transparent border-2 border-black text-black hover:bg-black hover:text-white",
-        icon: "bg-white text-black hover:bg-white/50",
-        "no-background": "bg-transparent text-dark hover:text-black",
+        "secondary-black": "bg-transparent border-2 border-foreground text-foreground hover:bg-foreground hover:text-white",
+        ghost: "bg-transparent text-foreground hover:text-black",
+        link: "text-primary hover:text-primary2 border-none",
       },
       size: {
-        default: "h-9 px-4 py-2 has-[>svg]:px-3",
-        sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-        lg: "h-12 text-xl rounded-md px-6 has-[>svg]:px-4",
+        default: "px-6 py-3",
+        sm: "px-3 py-1.5 gap-1.5 text-sm",
+        lg: "px-10 py-4 text-lg",
         icon: "size-9",
+        link: "p-0"
       },
     },
     defaultVariants: {

@@ -1,66 +1,35 @@
-export type NavItem = {
-    name: string
-    href: string
-    section: string | null
-}
+import { NavItem } from "@/types"
+
 
 export const NAV_ITEMS_LIST: NavItem[] = [
     {
-        name: "Początek",
-        href: "#hero",
-        section: "hero"
+        label: "O mnie",
+        href: "/o-mnie",
+        isLink: true
     },
     {
-        name: "O mnie",
-        href: "#about",
-        section: "about"
+        label: "Lekcja",
+        href: "/lekcja",
+        isLink: true
     },
     {
-        name: "Lekcja",
-        href: "#lesson",
-        section: "lesson"
+        label: "Oferta",
+        href: "/oferta",
+        isLink: true
     },
     {
-        name: "Oferta",
-        href: "#offer",
-        section: "offer"
+        label: "Opinie",
+        href: "/opinie",
+        isLink: true
     },
+    // {
+    //     label: "Materiały",
+    //     href: "/materialy",
+    //     isLink: true
+    // },
     {
-        name: "Opinie",
-        href: "#reviews",
-        section: "reviews"
-    },
-    {
-        name: "Blog",
+        label: "Blog",
         href: "/blog",
-        section: null
+        isLink: true
     },
-]
-
-export const BLOG_NAV_ITEMS_LIST: NavItem[] = [
-    {
-        name: "Główna",
-        href: "/",
-        section: null
-    },
-    {
-        name: "O mnie",
-        href: "/#about",
-        section: null
-    },
-    {
-        name: "Lekcja",
-        href: "/#lesson",
-        section: null
-    },
-    {
-        name: "Oferta",
-        href: "/#offer",
-        section: null
-    },
-    {
-        name: "Opinie",
-        href: "/#reviews",
-        section: null
-    }
 ]

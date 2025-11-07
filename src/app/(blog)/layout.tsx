@@ -1,4 +1,5 @@
-import BlogHeader from "@/components/BlogHeader";
+import Footer from "@/components/common/Footer";
+import Nav from "@/components/common/Nav";
 
 export default function RootLayout({
     children,
@@ -6,9 +7,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <main>
-            <BlogHeader />
-            {children}
-        </main>
+        <>
+            <Nav />
+            <main>
+                {children}
+            </main>
+            <Footer />
+        </>
     )
 }
