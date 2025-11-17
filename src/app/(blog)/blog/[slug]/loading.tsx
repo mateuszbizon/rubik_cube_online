@@ -3,7 +3,9 @@ import React from 'react'
 
 function SingleBlogLoading() {
   return (
-    <CircleLoading className='mx-auto mt-10' />
+    <div className='h-screen'>
+        <CircleLoading className='mx-auto mt-nav-height' />
+    </div>
   )
 }
 
