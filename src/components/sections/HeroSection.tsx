@@ -37,6 +37,11 @@ function HeroSection() {
                             </Button>
                         </div>
                     </FadeContent>
+                    <FadeContent blur={true} delay={1200}>
+                        <em className='uppercase bigger-text font-semibold'>
+                            pierwsza lekcja darmowa
+                        </em>
+                    </FadeContent>
                 </div>
 
                 <div className='flex flex-col'>

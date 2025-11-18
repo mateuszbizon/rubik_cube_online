@@ -2,7 +2,7 @@ import { client } from '@/sanity/lib/client'
 import { GET_ALL_BLOGS_QUERY } from '@/sanity/lib/queries'
 import type { MetadataRoute } from 'next'
  
-export const baseUrl = "https://naukakostkirubikaonline.vercel.app"
+export const baseUrl = "https://www.kurskostkirubika.pl"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const blogs = await client.withConfig({
