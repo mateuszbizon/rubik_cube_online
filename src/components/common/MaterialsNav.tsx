@@ -4,7 +4,7 @@ import React from 'react'
 
 function MaterialsNav() {
   return (
-    <aside className='w-[300px] bg-white sticky top-nav-height h-[calc(100vh-theme(spacing.nav-height))] hidden md:block overflow-y-auto px-5 py-10'>
+    <aside className='w-[300px] bg-white sticky top-nav-height h-[calc(100vh-theme(spacing.nav-height))] hidden lg:block overflow-y-auto px-5 py-10 shrink-0'>
         <nav className='space-y-10'>
             {MATERIALS_ITEMS.map(item => (
                 <div key={item.name} className='space-y-5'>

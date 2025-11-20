@@ -7,16 +7,16 @@ type MaterialsWrapperProps = PropsWithChildren
 
 function MaterialsWrapper({ children }: MaterialsWrapperProps) {
   return (
-    <div className='flex min-h-screen'>
+    <div className='flex flex-col lg:flex-row min-h-screen'>
         <MaterialsNav />
-        <div className='grow pt-[calc(theme(spacing.nav-height)+30px)] bg-white'>
+        <section className='grow pt-[calc(theme(spacing.nav-height)+30px)] lg:pt-[calc(theme(spacing.nav-height)+60px)] pb-5'>
             <Container>
-                <div className='md:hidden mb-10'>
+                <div className='lg:hidden mb-10'>
                     <MaterialsNavMobile />
                 </div>
                 {children}
             </Container>
-        </div>
+        </section>
     </div>
   )
 }
