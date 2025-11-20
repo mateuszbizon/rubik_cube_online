@@ -29,3 +29,8 @@ export type SingleOffer = {
     sixText?: string;
     image: Image;
 }
+
+export type MaterialItem = {
+    name: string
+    items: NavLink[]
+}

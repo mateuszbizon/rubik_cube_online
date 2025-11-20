@@ -22,11 +22,11 @@ export const NAV_ITEMS_LIST: NavItem[] = [
         href: "/opinie",
         isLink: true
     },
-    // {
-    //     label: "Materiały",
-    //     href: "/materialy",
-    //     isLink: true
-    // },
+    {
+        label: "Materiały",
+        href: "/materialy",
+        isLink: true
+    },
     {
         label: "Blog",
         href: "/blog",
