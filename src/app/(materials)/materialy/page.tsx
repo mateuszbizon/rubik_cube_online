@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { findMaterialItemByName } from '@/lib/utils'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,7 +17,7 @@ function MaterialsPage() {
                 </p>
                 <div className='flex justify-center mt-auto'>
                     <Button asChild>
-                        <Link href={"/oferta/metoda-podstawowa"}>
+                        <Link href={findMaterialItemByName("Metoda Fridrich")?.items[0].href!}>
                             Materiały
                         </Link>
                     </Button>
