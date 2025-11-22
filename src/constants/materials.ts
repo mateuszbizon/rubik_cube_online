@@ -10,6 +10,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Jak wstawić parę",
                 href: `${MATERIALS_LINK_START}/jak-wstawic-pare`
             },
+            {
+                label: "Jak ustawić narożnik oraz krawędź na górną ścianę",
+                href: `${MATERIALS_LINK_START}/jak-ustawic-naroznik-oraz-krawedz-na-gorna-sciane`
+            },
         ]
     },
 ]
