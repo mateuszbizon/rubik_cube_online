@@ -7,22 +7,9 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
         name: "Metoda Fridrich",
         items: [
             {
-                label: "Początek",
-                href: `${MATERIALS_LINK_START}/poczatek`
+                label: "Jak wstawić parę",
+                href: `${MATERIALS_LINK_START}/jak-wstawic-pare`
             },
-            {
-                label: "Początek2",
-                href: `${MATERIALS_LINK_START}/poczatek`
-            }
         ]
     },
-    {
-        name: "Metoda Fridrich2",
-        items: [
-            {
-                label: "Początek2",
-                href: `${MATERIALS_LINK_START}/poczatek`
-            }
-        ]
-    }
 ]
