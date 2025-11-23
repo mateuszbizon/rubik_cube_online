@@ -1,3 +1,5 @@
+import { MATERIALS_ITEMS } from '@/constants/materials'
+import { NAV_ITEMS_LIST } from '@/constants/navItemsList'
 import { client } from '@/sanity/lib/client'
 import { GET_ALL_BLOGS_QUERY } from '@/sanity/lib/queries'
 import type { MetadataRoute } from 'next'
@@ -15,37 +17,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.8,
     }))
 
+    const navLinks = NAV_ITEMS_LIST.map(item => ({
+        url: `${baseUrl}${item.href}`,
+        lastModified: new Date(),
+        priority: 0.8,
+    }))
+
+    const materialLinks = MATERIALS_ITEMS.map(item => {
+        return item.items.map(subItem => ({
+            url: `${baseUrl}${subItem.href}`,
+            lastModified: new Date(),
+            priority: 0.8,
+        }))
+    })
+
   return [
     {
       url: baseUrl,
       lastModified: new Date(),
       priority: 1,
     },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/lekcja`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/o-mnie`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/oferta`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/opinie`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
+    ...navLinks,
     {
       url: `${baseUrl}/zaczynam-nauke`,
       lastModified: new Date(),
@@ -91,11 +83,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       priority: 0.8,
     },
-    // {
-    //   url: `${baseUrl}/materialy`,
-    //   lastModified: new Date(),
-    //   priority: 0.8,
-    // },
-    ...blogLinks
+    ...blogLinks,
+    ...materialLinks.flat(),
   ]
 }
