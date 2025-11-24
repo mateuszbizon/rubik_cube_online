@@ -15,7 +15,7 @@ function MaterialNavCard({ item }: MaterialNavCardProps) {
   return (
     <div key={item.name} className='space-y-5'>
         <p className='uppercase font-semibold text-sm text-gray'>{item.name}</p>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-5'>
             {item.items.map(navItem => {
                 const isActive = pathName.includes(navItem.href)
 
