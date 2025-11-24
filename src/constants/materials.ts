@@ -22,6 +22,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Sytuacja 2 na F2L: Narożnik z białem kolorem skierowany na bok i kolory pary są takie same",
                 href: `${MATERIALS_LINK_START}/sytuacja-2-na-f2l-naroznik-z-bialem-kolorem-skierowany-na-bok-i-kolory-pary-sa-takie-same`
             },
+            {
+                label: "Sytuacja 3 na F2L: Narożnik z białem kolorem skierowany na bok i kolory pary są różne",
+                href: `${MATERIALS_LINK_START}/sytuacja-3-na-f2l-naroznik-z-bialem-kolorem-skierowany-na-bok-i-kolory-pary-sa-rozne`
+            },
         ]
     },
 ]
