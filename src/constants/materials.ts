@@ -30,6 +30,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Jak nie niszczyć już ułożonych par",
                 href: `${MATERIALS_LINK_START}/jak-nie-niszczyc-juz-ulozonych-par`
             },
+            {
+                label: "Notacja kostki Rubika",
+                href: `${MATERIALS_LINK_START}/notacja-kostki-rubika`
+            },
         ]
     },
 ]
