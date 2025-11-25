@@ -4,7 +4,7 @@ export const MATERIALS_LINK_START = "/materialy"
 
 export const MATERIALS_ITEMS: MaterialItem[] = [
     {
-        name: "Metoda Fridrich",
+        name: "Metoda Fridrich podstawy",
         items: [
             {
                 label: "Jak wstawić parę",
