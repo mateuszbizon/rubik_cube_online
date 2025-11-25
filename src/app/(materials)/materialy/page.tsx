@@ -10,7 +10,7 @@ function MaterialsPage() {
         <div className='grid md:grid-cols-2 gap-10 text-center'>
             <div className='offer-card'>
                 <h3 className='heading3'>
-                    Materiały dla metody Fridrich (podstawy)
+                    Materiały dla metody Fridrich {"(podstawy)"}
                 </h3>
                 <p className='little-bigger-text'>
                     W materiałach tych znajdziesz porady jak zacząć metodę Fridrich. Są tu też pokazane pierwsze kroki na etapie F2L, który jest sercem tej metody. Nie może też zabraknąć omówienia etapów OLL oraz PLL.
