@@ -34,6 +34,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Notacja kostki Rubika",
                 href: `${MATERIALS_LINK_START}/notacja-kostki-rubika`
             },
+            {
+                label: "Orientacja na krzyż nr 1 - samochód",
+                href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-1-samochod`
+            },
         ]
     },
 ]
