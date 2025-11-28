@@ -50,6 +50,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Orientacja na krzyż nr 4 - trzy rogi lewa strona",
                 href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-4-trzy-rogi-lewa-strona`
             },
+            {
+                label: "Orientacja na krzyż nr 5 - dwa rogi po bokach",
+                href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-5-dwa-rogi-po-bokach`
+            },
         ]
     },
 ]
