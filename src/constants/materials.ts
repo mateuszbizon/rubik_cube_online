@@ -42,6 +42,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Orientacja na krzyż nr 2 - samolot",
                 href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-2-samolot`
             },
+            {
+                label: "Orientacja na krzyż nr 3 - trzy rogi prawa strona",
+                href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-3-trzy-rogi-prawa-strona`
+            },
         ]
     },
 ]
