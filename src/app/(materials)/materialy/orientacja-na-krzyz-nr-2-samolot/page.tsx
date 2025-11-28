@@ -6,7 +6,7 @@ function page() {
   return (
     <>
         <MaterialSingle 
-            title='Orientacja na krzyż nr 1 - samochód' 
+            title='Orientacja na krzyż nr 2 - samolot' 
             desc={`Rozwiązanie: R U2 R2 U' R2 U' R2 U2 R'`}
         >
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
