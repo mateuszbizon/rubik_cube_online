@@ -71,6 +71,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Krawędź poprawnie wstawiona. Narożnik u góry z białym kolorem do góry nad krawędzią",
                 href: `${MATERIALS_LINK_START}/krawedz-poprawnie-wstawiona-naroznik-u-gory-z-bialym-kolorem-do-gory-nad-krawedzia`
             },
+            {
+                label: "Narożnik u góry z białym kolorem do góry. Krawędź u góry obok narożnika. Kolory na przemian",
+                href: `${MATERIALS_LINK_START}/naroznik-u-gory-z-bialym-kolorem-do-gory-krawedz-u-gory-obok-naroznika-kolory-na-przemian`
+            },
         ]
     },
 ]
