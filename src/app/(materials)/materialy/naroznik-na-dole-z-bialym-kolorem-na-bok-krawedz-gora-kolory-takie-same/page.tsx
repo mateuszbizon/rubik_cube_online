@@ -5,7 +5,7 @@ function page() {
   return (
     <>
         <MaterialSingle 
-            title='Narożnik na dole z białym kolorem na bok. Krawędź góra. Kolory różne' 
+            title='Narożnik na dole z białym kolorem na bok. Krawędź góra. Kolory takie same' 
             desc={`Krawędź musi znaleźć się na przedniej ściane. Wtedy robi jeden ruch boczną ścianą do góry i łączymy w ten sposób parę, którę należy tylko zachować, poprzez ruch na przeciwną boczną ścianę.`}
         >
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
