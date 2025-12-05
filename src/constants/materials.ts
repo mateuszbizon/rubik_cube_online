@@ -72,10 +72,6 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 href: `${MATERIALS_LINK_START}/krawedz-poprawnie-wstawiona-naroznik-u-gory-z-bialym-kolorem-do-gory-nad-krawedzia`
             },
             {
-                label: "Narożnik u góry z białym kolorem do góry. Krawędź u góry obok narożnika. Kolory na przemian",
-                href: `${MATERIALS_LINK_START}/naroznik-u-gory-z-bialym-kolorem-do-gory-krawedz-u-gory-obok-naroznika-kolory-na-przemian`
-            },
-            {
                 label: "Narożnik na dole z białym kolorem na bok. Krawędź góra. Kolory takie same",
                 href: `${MATERIALS_LINK_START}/naroznik-na-dole-z-bialym-kolorem-na-bok-krawedz-gora-kolory-takie-same`
             },
@@ -90,6 +86,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
             {
                 label: "Narożnik na dole z białym kolorem przed nami. Krawędź góra. Kolory różne",
                 href: `${MATERIALS_LINK_START}/naroznik-na-dole-z-bialym-kolorem-przed-nami-krawedz-gora-kolory-rozne`
+            },
+            {
+                label: "Narożnik u góry z białym kolorem do góry. Krawędź u góry obok narożnika. Kolory na przemian",
+                href: `${MATERIALS_LINK_START}/naroznik-u-gory-z-bialym-kolorem-do-gory-krawedz-u-gory-obok-naroznika-kolory-na-przemian`
             },
         ]
     },
