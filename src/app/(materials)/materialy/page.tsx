@@ -23,6 +23,21 @@ function MaterialsPage() {
                     </Button>
                 </div>
             </div>
+            <div className='offer-card'>
+                <h3 className='heading3'>
+                    Zaawansowane sytuacje na F2L
+                </h3>
+                <p className='little-bigger-text'>
+                    Materiały te są przeznaczone dla osób, które już znają podstawy metody Fridrich i chcą poszerzyć swoją wiedzę o bardziej zaawansowane techniki układania par na etapie F2L.
+                </p>
+                <div className='flex justify-center mt-auto'>
+                    <Button asChild>
+                        <Link href={findMaterialItemByName("F2L zaawansowane")?.items[0].href!}>
+                            Materiały
+                        </Link>
+                    </Button>
+                </div>
+            </div>
         </div>
     </>
   )

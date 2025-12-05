@@ -64,4 +64,13 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
             },
         ]
     },
+    {
+        name: "F2L zaawansowane",
+        items: [
+            {
+                label: "Krawędź poprawnie wstawiona. Narożnik u góry z białym kolorem do góry nad krawędzią",
+                href: `${MATERIALS_LINK_START}/krawedz-poprawnie-wstawiona-naroznik-u-gory-z-bialym-kolorem-do-gory-nad-krawedzia`
+            },
+        ]
+    },
 ]
