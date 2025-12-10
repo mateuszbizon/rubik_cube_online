@@ -95,6 +95,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Narożnik u góry z białym kolorem do góry. Krawędź u góry obok narożnika. Kolory takie same",
                 href: `${MATERIALS_LINK_START}/naroznik-u-gory-z-bialym-kolorem-do-gory-krawedz-u-gory-obok-naroznika-kolory-takie-same`
             },
+            {
+                label: "Narożnik na górze z białym kolorem przed nami. Krawędź na dole. Kolory takie same",
+                href: `${MATERIALS_LINK_START}/naroznik-na-gorze-z-bialym-kolorem-przed-nami-krawedz-na-dole-kolory-takie-same`
+            },
         ]
     },
 ]
