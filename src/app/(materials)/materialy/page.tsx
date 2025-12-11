@@ -10,6 +10,21 @@ function MaterialsPage() {
         <div className='grid md:grid-cols-2 gap-10 text-center'>
             <div className='offer-card'>
                 <h3 className='heading3'>
+                    Materiały dla metody podstawowej
+                </h3>
+                <p className='little-bigger-text'>
+                    Materiały te są przeznaczone dla osób, które zaczynają swoją przygodę z układaniem kostki Rubika metodą podstawową. Znajdziesz tu omówienie pierwszych kroków, w tym tworzenie żółtego krzyża oraz układanie narożników.
+                </p>
+                <div className='flex justify-center mt-auto'>
+                    <Button asChild>
+                        <Link href={findMaterialItemByName("Metoda podstawowa")?.items[0].href!}>
+                            Przechodzę
+                        </Link>
+                    </Button>
+                </div>
+            </div>
+            <div className='offer-card'>
+                <h3 className='heading3'>
                     Materiały dla metody Fridrich (podstawy)
                 </h3>
                 <p className='little-bigger-text'>
@@ -18,7 +33,7 @@ function MaterialsPage() {
                 <div className='flex justify-center mt-auto'>
                     <Button asChild>
                         <Link href={findMaterialItemByName("Metoda Fridrich podstawy")?.items[0].href!}>
-                            Materiały
+                            Przechodzę
                         </Link>
                     </Button>
                 </div>
@@ -33,7 +48,7 @@ function MaterialsPage() {
                 <div className='flex justify-center mt-auto'>
                     <Button asChild>
                         <Link href={findMaterialItemByName("F2L zaawansowane")?.items[0].href!}>
-                            Materiały
+                            Przechodzę
                         </Link>
                     </Button>
                 </div>

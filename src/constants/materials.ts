@@ -4,6 +4,15 @@ export const MATERIALS_LINK_START = "/materialy"
 
 export const MATERIALS_ITEMS: MaterialItem[] = [
     {
+        name: "Metoda podstawowa",
+        items: [
+            {
+                label: "Żółty krzyż",
+                href: `${MATERIALS_LINK_START}/zolty-krzyz`
+            }
+        ]
+    },
+    {
         name: "Metoda Fridrich podstawy",
         items: [
             {

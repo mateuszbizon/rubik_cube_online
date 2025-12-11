@@ -1,9 +1,9 @@
 "use client"
 
 import { MaterialItem } from '@/types'
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import MaterialNavLinkCard from './MaterialNavLinkCard'
 
 type MaterialNavCardProps = {
     item: MaterialItem
@@ -20,9 +20,12 @@ function MaterialNavCard({ item }: MaterialNavCardProps) {
                 const isActive = pathName.includes(navItem.href)
 
                 return (
-                    <Link key={navItem.label} href={navItem.href} className={`${isActive ? "text-black" : "text-foreground/80"} hover:text-black transition duration-300`}>
-                        {navItem.label}
-                    </Link>
+                    <MaterialNavLinkCard
+                        key={navItem.label}
+                        href={navItem.href}
+                        label={navItem.label}
+                        isActive={isActive}
+                    />
                 )
             })}
         </div>
