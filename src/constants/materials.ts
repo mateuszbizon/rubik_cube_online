@@ -9,6 +9,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
             {
                 label: "Żółty krzyż",
                 href: `${MATERIALS_LINK_START}/zolty-krzyz`
+            },
+            {
+                label: "Żółta ściana. Warsztat samochodowy",
+                href: `${MATERIALS_LINK_START}/zolta-sciana-warsztat-samochodowy`
             }
         ]
     },
