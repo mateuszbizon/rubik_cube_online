@@ -75,6 +75,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
                 label: "Orientacja na krzyż nr 7 - światełka",
                 href: `${MATERIALS_LINK_START}/orientacja-na-krzyz-nr-7-swiatelka`
             },
+            {
+                label: "Permutacje. O co w nich chodzi",
+                href: `${MATERIALS_LINK_START}/permutacje-o-co-w-nich-chodzi`
+            },
         ]
     },
     {
