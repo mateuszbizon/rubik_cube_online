@@ -17,6 +17,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
             {
                 label: "Sanki",
                 href: `${MATERIALS_LINK_START}/sanki`
+            },
+            {
+                label: "Rower",
+                href: `${MATERIALS_LINK_START}/rower`
             }
         ]
     },
