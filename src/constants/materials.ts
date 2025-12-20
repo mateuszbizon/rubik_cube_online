@@ -13,6 +13,10 @@ export const MATERIALS_ITEMS: MaterialItem[] = [
             {
                 label: "Żółta ściana. Warsztat samochodowy",
                 href: `${MATERIALS_LINK_START}/zolta-sciana-warsztat-samochodowy`
+            },
+            {
+                label: "Sanki",
+                href: `${MATERIALS_LINK_START}/sanki`
             }
         ]
     },
