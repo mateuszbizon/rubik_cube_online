@@ -90,7 +90,7 @@ function Footer() {
             </div>
             <div className='mt-section flex flex-col sm:flex-row justify-between gap-3 items-center'>
                 <p>
-                    &copy; {new Date().getFullYear()} | <span className='font-semibold'>Mateusz Bizoń</span>
+                    &copy; 2026 | <span className='font-semibold'>Mateusz Bizoń</span>
                 </p>
                 <p>
                     <Button variant={"link"} size={"link"} className='text-foreground hover:text-foreground/50' asChild>
