@@ -27,12 +27,12 @@ async function SingleBlogPage({ params }: Props) {
             <Container className='pt-5'>
                 {blog.mainImage && (
                     <figure className='relative aspect-video'>
-                        <Image src={urlFor(blog.mainImage).url()} alt={blog.mainImage.alt || ""} fill className='object-contain' />
+                        <Image src={urlFor(blog.mainImage).url()} alt={blog.mainImage.alt || ""} fill className='rounded-2xl' />
                     </figure>
                 )}
             </Container>
-            <Container className='bg-background-light/70 rounded-2xl py-10 mt-10 max-w-[700px]'>
-                <div className='prose prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:xl:text-4xl prose-h2:font-bold'>
+            <Container className='bg-background-light/70 rounded-2xl py-10 mt-10 max-w-[1000px]'>
+                <div className='prose prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:xl:text-4xl prose-h2:font-bold max-w-max'>
                     {Array.isArray(blog.body) && <PortableText value={blog.body} />}
                 </div>
             </Container>
