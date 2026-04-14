@@ -31,7 +31,7 @@ function LessonSection() {
                                     Koszt
                                 </p>
                                 <p className='little-bigger-text font-semibold'>
-                                    50 zł
+                                    100 zł
                                 </p>
                             </div>
                             <div className='space-y-1'>
