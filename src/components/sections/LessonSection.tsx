@@ -76,7 +76,7 @@ function LessonSection() {
                                 Lekcje odbywają się głównie online jak wspomniałem powyżej lecz istnieje jeszcze szansa spotkania stacjonarnego jeśli jest to w Zgorzelcu, województwo dolnośląskie lub pobliskich miejscowościach tak do 10 km :{")"}.
                             </p>
                             <p>
-                                Lekcja trwa godzinę i kosztuje 50 zł. Dla każdego nowego ucznia, <strong>pierwsza lekcja jest darmowa</strong>, aby sprawdzić czy zajęcia się podobają.
+                                Lekcja trwa godzinę i kosztuje 100 zł. Dla każdego nowego ucznia, <strong>pierwsza lekcja jest darmowa</strong>, aby sprawdzić czy zajęcia się podobają.
                             </p>
                             <div className='flex justify-center mt-10'>
                                 <Button size={"lg"} asChild>

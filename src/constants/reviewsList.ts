@@ -4,6 +4,10 @@ export type Review = {
 };
 
 export const REVIEWS_LIST: Review[] = [
+    {
+        name: "Mirosława",
+        content: "Idealnie! Fantastyczny nauczyciel! Cierpliwy, mega zdolny i potrafi wytłumaczyć wszystko tak, że od razu staje się jasne. Dzięki niemu układam szybciej i z ogromną frajdą. Najlepszy nauczyciel kostki Rubika! — Antek."
+    },
 	{
 		name: "Magdalena",
 		content: "Idealnie! Syn zadowolony;) Mateusz punktualny, zaangażowany. Otrzymaliśmy nawet dodatkowe materiały, dziękuję.",
